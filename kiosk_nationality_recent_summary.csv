@@ -1,0 +1,846 @@
+Kiosk,Client Nationality,avg_churn_rate,avg_retention_rate,mean_active,net_change_total,latest_active
+Bay Avenue,Algerian,0.0,1.0,1.0,0.0,1
+Bay Avenue,American,0.0,1.0,2.0,0.0,2
+Bay Avenue,Australian,0.0,1.0,1.0,0.0,1
+Bay Avenue,Belgian,0.0,1.0,1.0,0.0,1
+Bay Avenue,British,0.04305555555555555,0.9569444444444445,15.0,-1.0,14
+Bay Avenue,Canadian,0.16666666666666666,0.8333333333333334,4.333333333333333,0.0,4
+Bay Avenue,Chinese,0.0,1.0,1.0,0.0,1
+Bay Avenue,Dutch,0.0,1.0,1.0,0.0,1
+Bay Avenue,Egyptian,0.0,1.0,3.0,1.0,3
+Bay Avenue,Filipina,0.0,1.0,8.0,3.0,9
+Bay Avenue,French,0.0,1.0,5.0,0.0,5
+Bay Avenue,German,0.0,1.0,2.6666666666666665,1.0,3
+Bay Avenue,Ghanaian,1.0,0.0,1.0,1.0,1
+Bay Avenue,Grenadian,0.0,1.0,1.0,0.0,1
+Bay Avenue,Indian,0.048061948183528734,0.9519380518164713,48.333333333333336,-1.0,46
+Bay Avenue,Iranian,0.16666666666666666,0.8333333333333334,2.3333333333333335,0.0,2
+Bay Avenue,Israeli,0.0,1.0,1.0,0.0,1
+Bay Avenue,Italian,0.0,1.0,1.0,0.0,1
+Bay Avenue,Kenyan,1.0,0.0,1.0,0.0,1
+Bay Avenue,Lebanese,0.0,1.0,3.0,0.0,3
+Bay Avenue,Lithuanian,0.5,0.5,1.0,0.0,1
+Bay Avenue,Moroccan,1.0,0.0,1.0,0.0,1
+Bay Avenue,Norwegian,0.0,1.0,1.0,0.0,1
+Bay Avenue,Pakistani,0.0,1.0,6.0,0.0,6
+Bay Avenue,Palestinian,0.0,1.0,1.0,0.0,1
+Bay Avenue,Portuguese,0.0,1.0,2.0,0.0,2
+Bay Avenue,Romanian,0.0,1.0,1.0,0.0,1
+Bay Avenue,Russian,0.0,1.0,2.0,0.0,2
+Bay Avenue,Serbian,0.0,1.0,1.0,0.0,1
+Bay Avenue,Singaporean,0.0,1.0,1.0,0.0,1
+Bay Avenue,South African,0.3333333333333333,0.6666666666666666,1.0,0.0,1
+Bay Avenue,South Korean,0.0,1.0,1.0,0.0,1
+Bay Avenue,Sudanese,0.0,1.0,1.0,0.0,1
+Bay Avenue,Swiss,0.0,1.0,2.0,0.0,2
+Bay Avenue,Turkish,0.0,1.0,3.0,1.0,3
+Bay Avenue,UAE,0.0,1.0,1.0,1.0,1
+Bay Avenue,Unknown,0.15,0.85,15.666666666666666,4.0,16
+Brands For Less,Armenian,0.0,1.0,1.0,0.0,1
+Brands For Less,British,0.0,1.0,1.0,0.0,1
+Brands For Less,Filipina,0.0,1.0,2.0,0.0,2
+Brands For Less,Indian,0.0,1.0,2.0,0.0,2
+Brands For Less,Lebanese,0.1111111111111111,0.888888888888889,3.0,0.0,3
+Brands For Less,Pakistani,0.0,1.0,1.0,0.0,1
+Brands For Less,Palestinian,0.0,1.0,1.0,0.0,1
+Brands For Less,Syrian,0.0,1.0,1.0,0.0,1
+Brands For Less,Unknown,0.0,1.0,1.0,0.0,1
+Circle Mall,American,0.16666666666666666,0.8333333333333334,3.0,-2.0,2
+Circle Mall,Armenian,0.0,1.0,1.0,1.0,1
+Circle Mall,Australian,0.0,1.0,3.0,0.0,3
+Circle Mall,Belgian,0.0,1.0,1.0,0.0,1
+Circle Mall,Brazilian,0.0,1.0,2.0,0.0,2
+Circle Mall,British,0.02722222222222222,0.9727777777777779,23.666666666666668,-2.0,23
+Circle Mall,Cameroonian,0.0,1.0,1.0,0.0,1
+Circle Mall,Canadian,0.0,1.0,1.6666666666666667,1.0,2
+Circle Mall,Chinese,0.5,0.5,1.0,0.0,1
+Circle Mall,Croatian,0.0,1.0,1.0,0.0,1
+Circle Mall,Dutch,0.0,1.0,1.0,0.0,1
+Circle Mall,Egyptian,0.07037037037037037,0.9296296296296296,8.0,-3.0,7
+Circle Mall,Filipina,0.0,1.0,6.0,0.0,6
+Circle Mall,French,0.0,1.0,2.3333333333333335,2.0,3
+Circle Mall,German,0.0,1.0,2.6666666666666665,1.0,3
+Circle Mall,Indian,0.08585858585858586,0.914141414141414,11.333333333333334,-1.0,11
+Circle Mall,Indonesian,,,1.0,1.0,1
+Circle Mall,Iranian,0.5,0.5,1.0,-1.0,1
+Circle Mall,Irish,0.1111111111111111,0.888888888888889,4.333333333333333,1.0,4
+Circle Mall,Italian,0.0,1.0,1.0,0.0,1
+Circle Mall,Jordanian,0.16666666666666666,0.8333333333333334,3.6666666666666665,0.0,4
+Circle Mall,Kenyan,0.0,1.0,1.0,0.0,1
+Circle Mall,Lebanese,0.04305555555555555,0.9569444444444445,15.333333333333334,1.0,15
+Circle Mall,Maltese,0.0,1.0,1.0,0.0,1
+Circle Mall,Moroccan,0.0,1.0,2.0,0.0,2
+Circle Mall,Nigerian,0.0,1.0,1.0,0.0,1
+Circle Mall,Pakistani,0.08333333333333333,0.9166666666666666,3.6666666666666665,-2.0,3
+Circle Mall,Palestinian,0.0,1.0,1.0,0.0,1
+Circle Mall,Russian,0.06666666666666667,0.9333333333333332,5.333333333333333,0.0,5
+Circle Mall,Saint Kitts And Nevis,0.0,1.0,1.0,0.0,1
+Circle Mall,Saint Lucian,0.0,1.0,1.0,0.0,1
+Circle Mall,Slovakian,0.0,1.0,1.0,0.0,1
+Circle Mall,South African,0.0,1.0,1.0,0.0,1
+Circle Mall,Swazi,0.5,0.5,1.0,0.0,1
+Circle Mall,Swedish,0.16666666666666666,0.8333333333333334,1.3333333333333333,-1.0,1
+Circle Mall,Syrian,0.08333333333333333,0.9166666666666666,3.6666666666666665,-1.0,3
+Circle Mall,Tunisian,0.0,1.0,1.0,0.0,1
+Circle Mall,Turkish,0.3333333333333333,0.6666666666666666,2.3333333333333335,1.0,2
+Circle Mall,Unknown,0.13714063714063715,0.8628593628593628,11.0,-3.0,10
+City Centre Me'aisem,Algerian,0.0,1.0,1.0,0.0,1
+City Centre Me'aisem,American,0.0,1.0,1.0,0.0,1
+City Centre Me'aisem,Australian,0.0,1.0,1.0,0.0,1
+City Centre Me'aisem,Belarusian,0.0,1.0,1.0,0.0,1
+City Centre Me'aisem,Bosnian,0.0,1.0,1.0,1.0,1
+City Centre Me'aisem,British,0.07326007326007326,0.9267399267399267,13.666666666666666,0.0,13
+City Centre Me'aisem,Canadian,0.0,1.0,3.0,0.0,3
+City Centre Me'aisem,Chinese,0.0,1.0,2.0,0.0,2
+City Centre Me'aisem,Cypriot,0.0,1.0,1.0,0.0,1
+City Centre Me'aisem,Danish,0.0,1.0,2.0,0.0,2
+City Centre Me'aisem,Dutch,0.0,1.0,1.0,0.0,1
+City Centre Me'aisem,Egyptian,0.0,1.0,1.3333333333333333,1.0,2
+City Centre Me'aisem,Filipina,0.027777777777777776,0.9722222222222222,12.0,0.0,12
+City Centre Me'aisem,French,0.0,1.0,1.0,0.0,1
+City Centre Me'aisem,German,1.0,0.0,1.0,0.0,1
+City Centre Me'aisem,Indian,0.026709401709401708,0.9732905982905983,25.0,1.0,25
+City Centre Me'aisem,Iranian,0.0,1.0,1.0,0.0,1
+City Centre Me'aisem,Irish,0.0,1.0,2.0,-1.0,2
+City Centre Me'aisem,Jordanian,0.0,1.0,6.333333333333333,1.0,7
+City Centre Me'aisem,Kenyan,0.0,1.0,1.0,0.0,1
+City Centre Me'aisem,Lebanese,0.0,1.0,10.0,2.0,11
+City Centre Me'aisem,Moroccan,0.0,1.0,2.0,0.0,2
+City Centre Me'aisem,Pakistani,0.0,1.0,4.0,-1.0,4
+City Centre Me'aisem,Portuguese,0.0,1.0,1.0,0.0,1
+City Centre Me'aisem,South African,0.3333333333333333,0.6666666666666666,1.6666666666666667,-2.0,1
+City Centre Me'aisem,Swedish,0.16666666666666666,0.8333333333333334,1.6666666666666667,0.0,1
+City Centre Me'aisem,Syrian,0.0,1.0,3.0,0.0,3
+City Centre Me'aisem,Tunisian,0.0,1.0,2.0,0.0,2
+City Centre Me'aisem,Turkish,0.1111111111111111,0.888888888888889,2.6666666666666665,-1.0,2
+City Centre Me'aisem,Unknown,0.06666666666666667,0.9333333333333332,13.333333333333334,5.0,15
+City Centre Me'aisem,Zimbabwean,0.0,1.0,1.0,1.0,1
+Dubai Hills,Brazilian,0.0,1.0,1.0,1.0,1
+Dubai Hills,British,0.0,1.0,3.3333333333333335,3.0,4
+Dubai Hills,Dominican,,,1.0,1.0,1
+Dubai Hills,Indian,0.0,1.0,1.0,1.0,1
+Dubai Hills,Syrian,0.0,1.0,1.3333333333333333,2.0,2
+Dubai Hills,Unknown,0.0,1.0,2.0,2.0,2
+Festival City,American,0.06666666666666667,0.9333333333333332,4.666666666666667,-1.0,4
+Festival City,Armenian,0.0,1.0,1.0,0.0,1
+Festival City,Australian,0.0,1.0,1.0,-1.0,1
+Festival City,Belgian,0.1111111111111111,0.888888888888889,2.3333333333333335,-1.0,2
+Festival City,Brazilian,0.0,1.0,1.0,0.0,1
+Festival City,British,0.04419191919191919,0.9558080808080808,24.0,2.0,24
+Festival City,Canadian,0.0,1.0,6.0,2.0,6
+Festival City,Chinese,0.0,1.0,2.3333333333333335,1.0,3
+Festival City,Colombian,0.0,1.0,3.0,0.0,3
+Festival City,Dominican,1.0,0.0,1.0,0.0,1
+Festival City,Egyptian,0.0,1.0,8.0,-1.0,8
+Festival City,Ethiopian,0.0,1.0,2.0,0.0,2
+Festival City,Filipina,0.02815496784306404,0.971845032156936,95.33333333333333,1.0,94
+Festival City,French,0.0,1.0,12.666666666666666,3.0,13
+Festival City,German,0.0,1.0,6.0,1.0,6
+Festival City,Hungarian,0.0,1.0,1.0,0.0,1
+Festival City,Icelander,0.0,1.0,1.0,0.0,1
+Festival City,Indian,0.02543859649122807,0.9745614035087719,39.333333333333336,0.0,38
+Festival City,Iranian,0.0,1.0,1.0,0.0,1
+Festival City,Irish,0.0,1.0,1.6666666666666667,1.0,2
+Festival City,Italian,0.0,1.0,1.3333333333333333,1.0,2
+Festival City,Jordanian,0.0,1.0,2.0,0.0,2
+Festival City,Kenyan,0.0,1.0,6.0,1.0,6
+Festival City,Latvian,0.0,1.0,1.0,0.0,1
+Festival City,Lebanese,0.053418803418803416,0.9465811965811967,13.0,1.0,13
+Festival City,Lithuanian,0.0,1.0,1.0,0.0,1
+Festival City,Macedonian,0.0,1.0,1.0,0.0,1
+Festival City,Malaysian,0.16666666666666666,0.8333333333333334,1.3333333333333333,-1.0,1
+Festival City,Mauritanian,0.0,1.0,1.0,0.0,1
+Festival City,Mexican,1.0,0.0,1.0,0.0,1
+Festival City,Nigerian,0.0,1.0,1.0,0.0,1
+Festival City,Pakistani,0.0,1.0,3.0,-2.0,3
+Festival City,Peruvian,0.0,1.0,1.0,-1.0,1
+Festival City,Portuguese,0.0,1.0,3.0,0.0,3
+Festival City,Russian,0.0,1.0,2.0,1.0,2
+Festival City,Saint Kitts And Nevis,0.0,1.0,1.0,-1.0,1
+Festival City,Saudi Arabian,0.0,1.0,1.0,1.0,1
+Festival City,Singaporean,0.0,1.0,1.0,0.0,1
+Festival City,Slovakian,0.5,0.5,1.0,0.0,1
+Festival City,South African,0.0,1.0,4.666666666666667,1.0,5
+Festival City,South Korean,0.0,1.0,1.0,0.0,1
+Festival City,Spanish,0.0,1.0,2.6666666666666665,1.0,3
+Festival City,Sudanese,0.0,1.0,3.0,0.0,3
+Festival City,Swiss,,,1.0,1.0,1
+Festival City,Syrian,0.0,1.0,1.0,0.0,1
+Festival City,Tunisian,0.3333333333333333,0.6666666666666666,1.0,0.0,1
+Festival City,Turkish,0.0,1.0,5.0,0.0,5
+Festival City,Turkmen,,,1.0,1.0,1
+Festival City,Ukrainian,0.0,1.0,1.0,0.0,1
+Festival City,Unknown,0.08171497584541063,0.9182850241545895,25.333333333333332,4.0,28
+Festival City,Yemenite,0.0,1.0,1.0,0.0,1
+Festival City,Zimbabwean,0.0,1.0,2.0,0.0,2
+Festival Plaza,Afghan,0.0,1.0,1.0,0.0,1
+Festival Plaza,Algerian,0.0,1.0,1.0,1.0,1
+Festival Plaza,American,0.0,1.0,5.0,-1.0,5
+Festival Plaza,Australian,0.0,1.0,8.0,1.0,8
+Festival Plaza,Austrian,0.0,1.0,1.0,0.0,1
+Festival Plaza,Belarusian,1.0,0.0,1.0,0.0,1
+Festival Plaza,Belgian,0.0,1.0,4.0,0.0,4
+Festival Plaza,Bosnian,0.0,1.0,1.0,0.0,1
+Festival Plaza,Brazilian,0.0,1.0,4.0,0.0,4
+Festival Plaza,British,0.06007996632996634,0.9399200336700337,33.666666666666664,0.0,33
+Festival Plaza,Bulgarian,0.0,1.0,1.0,0.0,1
+Festival Plaza,Burkinabe,0.0,1.0,1.0,0.0,1
+Festival Plaza,Canadian,0.047619047619047616,0.9523809523809524,7.333333333333333,1.0,8
+Festival Plaza,Chinese,1.0,0.0,1.0,0.0,1
+Festival Plaza,Colombian,0.5,0.5,1.0,0.0,1
+Festival Plaza,Cypriot,0.0,1.0,2.0,0.0,2
+Festival Plaza,Dutch,0.1111111111111111,0.888888888888889,3.0,0.0,3
+Festival Plaza,Egyptian,0.17407407407407405,0.825925925925926,8.666666666666666,-2.0,7
+Festival Plaza,Filipina,0.012125220458553791,0.9878747795414462,55.0,4.0,55
+Festival Plaza,French,0.0,1.0,5.333333333333333,1.0,6
+Festival Plaza,German,0.06666666666666667,0.9333333333333332,4.666666666666667,0.0,4
+Festival Plaza,Ghanaian,0.0,1.0,2.0,0.0,2
+Festival Plaza,Greek,0.0,1.0,1.0,0.0,1
+Festival Plaza,Hungarian,0.0,1.0,2.0,1.0,2
+Festival Plaza,Indian,0.0270582338579239,0.9729417661420761,88.33333333333333,5.0,89
+Festival Plaza,Indonesian,0.0,1.0,1.0,0.0,1
+Festival Plaza,Iranian,0.0,1.0,2.0,0.0,2
+Festival Plaza,Irish,0.0,1.0,1.0,0.0,1
+Festival Plaza,Italian,0.0,1.0,2.0,0.0,2
+Festival Plaza,Jordanian,0.09523809523809523,0.9047619047619048,5.666666666666667,-2.0,5
+Festival Plaza,Kazakhstani,0.0,1.0,1.0,0.0,1
+Festival Plaza,Kenyan,0.0,1.0,2.0,0.0,2
+Festival Plaza,Kyrgyz,0.0,1.0,1.0,0.0,1
+Festival Plaza,Lebanese,0.041666666666666664,0.9583333333333334,8.333333333333334,0.0,8
+Festival Plaza,Malaysian,0.0,1.0,1.0,0.0,1
+Festival Plaza,Mexican,0.0,1.0,2.0,0.0,2
+Festival Plaza,Moroccan,0.0,1.0,3.0,0.0,3
+Festival Plaza,Ni-Vanuatu,0.0,1.0,1.0,0.0,1
+Festival Plaza,Pakistani,0.0,1.0,5.0,0.0,5
+Festival Plaza,Palestinian,0.0,1.0,1.0,0.0,1
+Festival Plaza,Polish,0.16666666666666666,0.8333333333333334,1.6666666666666667,-1.0,1
+Festival Plaza,Portuguese,0.0,1.0,2.0,0.0,2
+Festival Plaza,Russian,0.08333333333333333,0.9166666666666666,4.0,0.0,4
+Festival Plaza,Singaporean,0.0,1.0,2.0,1.0,2
+Festival Plaza,South African,0.0,1.0,6.333333333333333,1.0,7
+Festival Plaza,South Korean,0.0,1.0,1.0,0.0,1
+Festival Plaza,Spanish,0.0,1.0,1.0,0.0,1
+Festival Plaza,Sri Lankan,0.0,1.0,4.0,2.0,5
+Festival Plaza,Sudanese,0.0,1.0,1.3333333333333333,1.0,2
+Festival Plaza,Swiss,0.0,1.0,1.0,0.0,1
+Festival Plaza,Syrian,0.0,1.0,2.0,0.0,2
+Festival Plaza,Trinidadian,0.0,1.0,1.0,0.0,1
+Festival Plaza,Tunisian,0.0,1.0,1.0,1.0,1
+Festival Plaza,Turkish,0.08333333333333333,0.9166666666666666,8.0,1.0,9
+Festival Plaza,Ukrainian,0.0,1.0,1.0,0.0,1
+Festival Plaza,Unknown,0.08781362007168458,0.9121863799283155,35.0,7.0,38
+First Avenue,American,0.0,1.0,4.0,0.0,4
+First Avenue,Argentinean,0.0,1.0,2.0,0.0,2
+First Avenue,Australian,0.0,1.0,2.0,0.0,2
+First Avenue,Austrian,0.0,1.0,1.0,0.0,1
+First Avenue,Brazilian,1.0,0.0,1.0,1.0,1
+First Avenue,British,0.022222222222222223,0.9777777777777779,15.333333333333334,0.0,15
+First Avenue,Bulgarian,0.0,1.0,1.0,0.0,1
+First Avenue,Canadian,0.0,1.0,5.0,0.0,5
+First Avenue,Chinese,0.0,1.0,1.0,0.0,1
+First Avenue,Dominican,0.0,1.0,1.0,0.0,1
+First Avenue,Dutch,0.0,1.0,1.0,0.0,1
+First Avenue,Egyptian,0.03333333333333333,0.9666666666666667,10.0,0.0,10
+First Avenue,Ethiopian,0.0,1.0,1.0,0.0,1
+First Avenue,Filipina,0.0,1.0,4.0,0.0,4
+First Avenue,French,0.3333333333333333,0.6666666666666666,1.3333333333333333,-1.0,1
+First Avenue,German,0.16666666666666666,0.8333333333333334,1.6666666666666667,-1.0,1
+First Avenue,Greek,,,1.0,1.0,1
+First Avenue,Indian,0.0,1.0,14.666666666666666,1.0,15
+First Avenue,Iraqi,0.5,0.5,1.0,0.0,1
+First Avenue,Irish,0.0,1.0,4.0,0.0,4
+First Avenue,Italian,0.0,1.0,1.0,0.0,1
+First Avenue,Jordanian,0.08333333333333333,0.9166666666666666,4.0,1.0,4
+First Avenue,Kenyan,0.0,1.0,1.0,0.0,1
+First Avenue,Lebanese,0.0,1.0,6.0,0.0,6
+First Avenue,Moroccan,0.0,1.0,1.0,0.0,1
+First Avenue,New Zealander,0.0,1.0,1.0,0.0,1
+First Avenue,Pakistani,0.0,1.0,6.0,1.0,6
+First Avenue,Polish,0.0,1.0,1.0,0.0,1
+First Avenue,Portuguese,0.0,1.0,1.0,1.0,1
+First Avenue,Romanian,0.0,1.0,1.0,0.0,1
+First Avenue,Serbian,0.0,1.0,3.0,1.0,3
+First Avenue,South African,0.0,1.0,5.0,0.0,5
+First Avenue,Spanish,0.0,1.0,1.0,0.0,1
+First Avenue,Syrian,0.0,1.0,6.0,0.0,6
+First Avenue,Tunisian,0.0,1.0,1.0,0.0,1
+First Avenue,Turkish,0.0,1.0,2.0,0.0,2
+First Avenue,Ukrainian,0.0,1.0,2.0,0.0,2
+First Avenue,Unknown,0.09764309764309764,0.9023569023569022,10.333333333333334,2.0,11
+First Avenue,Zimbabwean,0.0,1.0,1.0,0.0,1
+Golden Miles,Australian,0.0,1.0,2.0,0.0,2
+Golden Miles,Austrian,0.0,1.0,1.0,0.0,1
+Golden Miles,Bangladeshi,0.0,1.0,1.0,0.0,1
+Golden Miles,British,0.04305555555555555,0.9569444444444445,15.666666666666666,1.0,16
+Golden Miles,Canadian,0.0,1.0,4.0,0.0,4
+Golden Miles,Cypriot,0.0,1.0,1.0,0.0,1
+Golden Miles,Dominican,1.0,0.0,1.0,1.0,1
+Golden Miles,Egyptian,0.05555555555555555,0.9444444444444445,5.666666666666667,-2.0,5
+Golden Miles,Ethiopian,0.0,1.0,1.0,0.0,1
+Golden Miles,Filipina,0.08333333333333333,0.9166666666666666,3.6666666666666665,-1.0,3
+Golden Miles,French,0.16666666666666666,0.8333333333333334,1.6666666666666667,0.0,1
+Golden Miles,German,0.08333333333333333,0.9166666666666666,3.6666666666666665,-1.0,3
+Golden Miles,Indian,0.0,1.0,6.0,0.0,6
+Golden Miles,Irish,0.0,1.0,1.0,0.0,1
+Golden Miles,Israeli,0.0,1.0,1.0,0.0,1
+Golden Miles,Italian,0.0,1.0,3.6666666666666665,1.0,4
+Golden Miles,Lebanese,0.0,1.0,1.3333333333333333,1.0,2
+Golden Miles,New Zealander,0.0,1.0,1.0,0.0,1
+Golden Miles,Nigerian,0.0,1.0,1.0,1.0,1
+Golden Miles,Pakistani,0.0,1.0,1.0,0.0,1
+Golden Miles,Portuguese,0.0,1.0,1.0,0.0,1
+Golden Miles,Russian,0.1111111111111111,0.888888888888889,2.6666666666666665,0.0,2
+Golden Miles,Saint Kitts And Nevis,0.0,1.0,1.0,1.0,1
+Golden Miles,Spanish,,,1.0,1.0,1
+Golden Miles,Swedish,0.0,1.0,3.0,0.0,3
+Golden Miles,Syrian,1.0,0.0,1.0,0.0,1
+Golden Miles,Turkish,0.0,1.0,3.6666666666666665,1.0,4
+Golden Miles,Ukrainian,0.0,1.0,3.0,0.0,3
+Golden Miles,Unknown,0.1263227513227513,0.8736772486772487,17.0,3.0,17
+Golden Miles,Uzbekistani,0.0,1.0,1.0,0.0,1
+Main center Dubai,Algerian,0.0,1.0,1.0,1.0,1
+Main center Dubai,American,0.0,1.0,3.0,3.0,3
+Main center Dubai,Angolan,0.0,1.0,1.0,1.0,1
+Main center Dubai,Argentinean,1.0,0.0,1.0,0.0,1
+Main center Dubai,Azerbaijani,0.0,1.0,1.0,1.0,1
+Main center Dubai,Belarusian,,,1.0,1.0,1
+Main center Dubai,Belgian,0.0,1.0,1.3333333333333333,2.0,2
+Main center Dubai,Brazilian,0.0,1.0,1.0,1.0,1
+Main center Dubai,British,0.1,0.9,4.0,5.0,5
+Main center Dubai,Cameroonian,,,1.0,1.0,1
+Main center Dubai,Canadian,0.3333333333333333,0.6666666666666667,4.333333333333333,5.0,5
+Main center Dubai,Chinese,0.0,1.0,2.0,3.0,3
+Main center Dubai,Croatian,,,1.0,1.0,1
+Main center Dubai,Danish,0.0,1.0,1.0,1.0,1
+Main center Dubai,Dominican,0.0,1.0,2.0,3.0,3
+Main center Dubai,Dutch,0.0,1.0,2.6666666666666665,2.0,3
+Main center Dubai,Egyptian,0.0,1.0,2.6666666666666665,3.0,3
+Main center Dubai,Estonian,0.0,1.0,1.0,1.0,1
+Main center Dubai,Filipina,0.1,0.9,7.0,9.0,9
+Main center Dubai,French,0.16666666666666666,0.8333333333333334,4.666666666666667,5.0,5
+Main center Dubai,German,,,1.0,1.0,1
+Main center Dubai,Greek,0.0,1.0,1.0,1.0,1
+Main center Dubai,Indian,0.0,1.0,14.666666666666666,19.0,19
+Main center Dubai,Iranian,0.0,1.0,3.3333333333333335,4.0,4
+Main center Dubai,Irish,0.0,1.0,3.0,3.0,3
+Main center Dubai,Italian,0.0,1.0,2.0,1.0,2
+Main center Dubai,Jordanian,0.0,1.0,4.5,5.0,5
+Main center Dubai,Kazakhstani,,,1.0,1.0,1
+Main center Dubai,Kenyan,0.0,1.0,2.0,2.0,2
+Main center Dubai,Lebanese,0.0,1.0,5.666666666666667,7.0,8
+Main center Dubai,Montenegrin,0.0,1.0,1.0,1.0,1
+Main center Dubai,Pakistani,0.0,1.0,2.6666666666666665,3.0,3
+Main center Dubai,Romanian,0.5,0.5,1.0,0.0,1
+Main center Dubai,Russian,0.16666666666666666,0.8333333333333334,3.3333333333333335,4.0,4
+Main center Dubai,Saudi Arabian,1.0,0.0,1.0,1.0,1
+Main center Dubai,Slovenian,,,1.0,1.0,1
+Main center Dubai,Sudanese,0.0,1.0,1.0,1.0,1
+Main center Dubai,Syrian,0.0,1.0,1.0,1.0,1
+Main center Dubai,Tunisian,,,1.0,1.0,1
+Main center Dubai,Turkish,0.3333333333333333,0.6666666666666667,3.5,4.0,4
+Main center Dubai,UAE,1.0,0.0,1.0,1.0,1
+Main center Dubai,Ugandan,0.5,0.5,1.0,1.0,1
+Main center Dubai,Ukrainian,0.0,1.0,1.0,1.0,1
+Main center Dubai,Unknown,0.43142857142857144,0.5685714285714286,22.666666666666668,27.0,29
+Main center Dubai,Yemenite,0.0,1.0,1.0,1.0,1
+Mall of Emirates,Algerian,0.0,1.0,1.0,1.0,1
+Mall of Emirates,American,0.16666666666666666,0.8333333333333334,3.0,-2.0,2
+Mall of Emirates,Argentinean,0.0,1.0,1.0,0.0,1
+Mall of Emirates,Australian,0.1111111111111111,0.888888888888889,2.3333333333333335,-1.0,2
+Mall of Emirates,Austrian,0.0,1.0,1.0,0.0,1
+Mall of Emirates,Azerbaijani,0.0,1.0,1.3333333333333333,1.0,2
+Mall of Emirates,Bangladeshi,0.0,1.0,1.0,0.0,1
+Mall of Emirates,Brazilian,0.3333333333333333,0.6666666666666666,1.0,-2.0,1
+Mall of Emirates,British,0.015873015873015872,0.9841269841269842,23.0,3.0,24
+Mall of Emirates,Bulgarian,0.0,1.0,1.0,0.0,1
+Mall of Emirates,Canadian,0.047619047619047616,0.9523809523809524,6.666666666666667,2.0,7
+Mall of Emirates,Chinese,0.0,1.0,5.0,3.0,6
+Mall of Emirates,Colombian,0.0,1.0,1.0,0.0,1
+Mall of Emirates,Congolese,0.0,1.0,1.0,0.0,1
+Mall of Emirates,Cypriot,0.0,1.0,1.3333333333333333,1.0,2
+Mall of Emirates,Dutch,0.0,1.0,2.0,1.0,2
+Mall of Emirates,Ecuadorean,0.5,0.5,1.0,0.0,1
+Mall of Emirates,Egyptian,0.08333333333333333,0.9166666666666666,4.0,0.0,4
+Mall of Emirates,Ethiopian,0.0,1.0,1.0,0.0,1
+Mall of Emirates,Filipina,0.0,1.0,23.666666666666668,4.0,24
+Mall of Emirates,French,0.07692307692307693,0.923076923076923,14.333333333333334,1.0,14
+Mall of Emirates,German,0.2222222222222222,0.7777777777777778,2.0,-2.0,1
+Mall of Emirates,Ghanaian,,,1.0,1.0,1
+Mall of Emirates,Greek,0.0,1.0,1.0,0.0,1
+Mall of Emirates,Hungarian,0.0,1.0,1.0,0.0,1
+Mall of Emirates,Indian,0.08761904761904761,0.9123809523809524,22.666666666666668,-1.0,20
+Mall of Emirates,Iranian,0.0,1.0,2.0,0.0,2
+Mall of Emirates,Irish,0.0,1.0,3.6666666666666665,2.0,4
+Mall of Emirates,Italian,0.1111111111111111,0.888888888888889,3.6666666666666665,2.0,4
+Mall of Emirates,Jordanian,0.0,1.0,2.0,-1.0,2
+Mall of Emirates,Kazakhstani,0.0,1.0,1.0,0.0,1
+Mall of Emirates,Lebanese,0.0196078431372549,0.9803921568627452,16.333333333333332,1.0,18
+Mall of Emirates,Malaysian,0.0,1.0,1.0,0.0,1
+Mall of Emirates,Pakistani,0.08333333333333333,0.9166666666666666,8.666666666666666,0.0,8
+Mall of Emirates,Peruvian,0.0,1.0,1.0,0.0,1
+Mall of Emirates,Portuguese,0.0,1.0,1.0,0.0,1
+Mall of Emirates,Romanian,0.0,1.0,1.0,0.0,1
+Mall of Emirates,Russian,0.0,1.0,4.666666666666667,2.0,5
+Mall of Emirates,Saint Kitts And Nevis,0.0,1.0,1.0,0.0,1
+Mall of Emirates,Saudi Arabian,0.0,1.0,1.0,0.0,1
+Mall of Emirates,Serbian,0.0,1.0,1.6666666666666667,1.0,2
+Mall of Emirates,Singaporean,0.0,1.0,2.0,0.0,2
+Mall of Emirates,South African,0.0,1.0,2.3333333333333335,2.0,3
+Mall of Emirates,Spanish,0.0,1.0,2.0,2.0,3
+Mall of Emirates,Swazi,0.0,1.0,1.0,0.0,1
+Mall of Emirates,Swedish,0.0,1.0,1.0,0.0,1
+Mall of Emirates,Swiss,0.0,1.0,1.6666666666666667,0.0,2
+Mall of Emirates,Syrian,0.0,1.0,2.3333333333333335,1.0,3
+Mall of Emirates,Tanzanian,0.0,1.0,1.0,1.0,1
+Mall of Emirates,Tunisian,0.0,1.0,1.0,0.0,1
+Mall of Emirates,Turkish,0.05555555555555555,0.9444444444444445,5.666666666666667,-1.0,5
+Mall of Emirates,UAE,0.0,1.0,1.0,0.0,1
+Mall of Emirates,Ukrainian,0.0,1.0,1.0,0.0,1
+Mall of Emirates,Unknown,0.12549019607843137,0.8745098039215686,35.666666666666664,11.0,36
+Marina Mall,American,0.0,1.0,5.0,0.0,5
+Marina Mall,Argentinean,0.0,1.0,1.0,0.0,1
+Marina Mall,Australian,0.0,1.0,3.0,0.0,3
+Marina Mall,Austrian,0.0,1.0,1.0,0.0,1
+Marina Mall,Belgian,0.0,1.0,1.0,0.0,1
+Marina Mall,British,0.06363636363636364,0.9363636363636364,10.0,-1.0,9
+Marina Mall,Canadian,0.16666666666666666,0.8333333333333334,3.0,-1.0,3
+Marina Mall,Chinese,0.0,1.0,1.0,0.0,1
+Marina Mall,Danish,0.0,1.0,1.0,0.0,1
+Marina Mall,Djibouti,0.0,1.0,1.0,0.0,1
+Marina Mall,Dominican,0.0,1.0,1.0,1.0,1
+Marina Mall,Egyptian,0.047619047619047616,0.9523809523809524,6.666666666666667,-1.0,6
+Marina Mall,Filipina,0.015151515151515152,0.9848484848484849,45.0,0.0,45
+Marina Mall,French,0.0,1.0,4.0,0.0,4
+Marina Mall,Indian,0.023809523809523808,0.9761904761904763,29.0,1.0,29
+Marina Mall,Italian,0.0,1.0,1.6666666666666667,1.0,2
+Marina Mall,Jordanian,0.08333333333333333,0.9166666666666666,3.6666666666666665,0.0,3
+Marina Mall,Lebanese,0.1111111111111111,0.888888888888889,2.3333333333333335,-1.0,2
+Marina Mall,Malaysian,0.0,1.0,1.0,0.0,1
+Marina Mall,Pakistani,0.0,1.0,2.0,0.0,2
+Marina Mall,Palestinian,0.0,1.0,1.0,0.0,1
+Marina Mall,Polish,0.0,1.0,1.0,0.0,1
+Marina Mall,Russian,0.0,1.0,1.0,0.0,1
+Marina Mall,South African,0.0,1.0,1.6666666666666667,1.0,2
+Marina Mall,South Korean,0.0,1.0,1.0,0.0,1
+Marina Mall,Spanish,0.0,1.0,2.0,0.0,2
+Marina Mall,Swedish,0.0,1.0,2.0,0.0,2
+Marina Mall,Tunisian,0.16666666666666666,0.8333333333333334,1.6666666666666667,0.0,1
+Marina Mall,Turkish,0.0,1.0,1.0,0.0,1
+Marina Mall,UAE,0.16666666666666666,0.8333333333333334,2.0,0.0,2
+Marina Mall,Unknown,0.025641025641025644,0.9743589743589745,14.333333333333334,3.0,16
+Marina Mall,Zimbabwean,0.0,1.0,2.0,0.0,2
+Meadows souk shop,Afghan,0.0,1.0,1.0,0.0,1
+Meadows souk shop,American,0.08333333333333333,0.9166666666666666,3.6666666666666665,-1.0,3
+Meadows souk shop,Argentinean,0.0,1.0,1.0,0.0,1
+Meadows souk shop,Armenian,0.0,1.0,1.0,0.0,1
+Meadows souk shop,Australian,0.0,1.0,4.0,0.0,4
+Meadows souk shop,Austrian,0.0,1.0,1.0,0.0,1
+Meadows souk shop,Brazilian,0.0,1.0,1.0,0.0,1
+Meadows souk shop,British,0.03333333333333333,0.9666666666666667,18.666666666666668,-2.0,18
+Meadows souk shop,Canadian,0.08333333333333333,0.9166666666666666,7.0,-2.0,6
+Meadows souk shop,Cypriot,0.0,1.0,1.0,0.0,1
+Meadows souk shop,Egyptian,0.0,1.0,2.0,0.0,2
+Meadows souk shop,Filipina,0.06666666666666667,0.9333333333333332,5.0,0.0,5
+Meadows souk shop,French,0.1111111111111111,0.888888888888889,3.0,0.0,3
+Meadows souk shop,German,0.0,1.0,6.0,0.0,6
+Meadows souk shop,Greek,0.0,1.0,1.0,0.0,1
+Meadows souk shop,Indian,0.030303030303030304,0.9696969696969697,10.666666666666666,-1.0,10
+Meadows souk shop,Irish,0.0,1.0,4.0,0.0,4
+Meadows souk shop,Italian,0.08333333333333333,0.9166666666666666,7.333333333333333,-2.0,6
+Meadows souk shop,Jordanian,0.0,1.0,3.0,0.0,3
+Meadows souk shop,Kazakhstani,0.0,1.0,1.0,0.0,1
+Meadows souk shop,Lebanese,0.08333333333333333,0.9166666666666666,7.0,-2.0,6
+Meadows souk shop,Malaysian,0.0,1.0,1.0,0.0,1
+Meadows souk shop,Pakistani,0.08333333333333333,0.9166666666666666,3.3333333333333335,-1.0,3
+Meadows souk shop,Portuguese,0.0,1.0,1.0,0.0,1
+Meadows souk shop,Russian,0.13333333333333333,0.8666666666666667,3.6666666666666665,-2.0,3
+Meadows souk shop,Serbian,0.0,1.0,1.0,0.0,1
+Meadows souk shop,South African,0.0,1.0,4.0,0.0,4
+Meadows souk shop,Spanish,0.0,1.0,3.0,0.0,3
+Meadows souk shop,Swedish,0.16666666666666666,0.8333333333333334,3.0,-2.0,2
+Meadows souk shop,Swiss,0.0,1.0,2.0,0.0,2
+Meadows souk shop,Turkish,0.09523809523809523,0.9047619047619048,4.666666666666667,-3.0,4
+Meadows souk shop,Unknown,0.041666666666666664,0.9583333333333334,15.666666666666666,-1.0,15
+Meadows souk shop,Venezuelan,0.0,1.0,1.0,0.0,1
+Mercato,American,0.0,1.0,1.6666666666666667,1.0,2
+Mercato,Armenian,0.0,1.0,1.0,0.0,1
+Mercato,Australian,0.0,1.0,2.0,0.0,2
+Mercato,Belgian,0.0,1.0,1.0,0.0,1
+Mercato,British,0.0,1.0,7.666666666666667,1.0,9
+Mercato,Bulgarian,0.0,1.0,1.0,0.0,1
+Mercato,Canadian,0.0,1.0,6.666666666666667,1.0,7
+Mercato,Chinese,0.0,1.0,1.0,0.0,1
+Mercato,Colombian,0.0,1.0,1.0,0.0,1
+Mercato,Dominican,1.0,0.0,1.0,0.0,1
+Mercato,Egyptian,0.0,1.0,2.0,-1.0,2
+Mercato,Filipina,0.0,1.0,15.0,0.0,15
+Mercato,French,0.03333333333333333,0.9666666666666667,8.666666666666666,-1.0,9
+Mercato,German,0.0,1.0,2.0,0.0,2
+Mercato,Greek,0.0,1.0,1.0,0.0,1
+Mercato,Indian,0.0,1.0,19.0,2.0,20
+Mercato,Iranian,0.0,1.0,3.0,0.0,3
+Mercato,Italian,0.0,1.0,2.6666666666666665,1.0,3
+Mercato,Jordanian,0.0,1.0,2.0,0.0,2
+Mercato,Kazakhstani,0.3333333333333333,0.6666666666666666,1.0,0.0,1
+Mercato,Lebanese,0.05555555555555555,0.9444444444444445,4.333333333333333,-2.0,4
+Mercato,Maltese,0.0,1.0,1.0,0.0,1
+Mercato,Moroccan,0.0,1.0,1.5,1.0,2
+Mercato,Pakistani,0.0,1.0,3.0,0.0,3
+Mercato,Portuguese,0.0,1.0,1.0,0.0,1
+Mercato,Russian,0.0,1.0,3.0,1.0,3
+Mercato,Saudi Arabian,0.0,1.0,1.0,0.0,1
+Mercato,Slovakian,0.0,1.0,1.0,1.0,1
+Mercato,Spanish,0.0,1.0,2.3333333333333335,1.0,3
+Mercato,Swazi,0.0,1.0,1.0,1.0,1
+Mercato,Swedish,0.0,1.0,1.0,0.0,1
+Mercato,Swiss,0.0,1.0,1.6666666666666667,1.0,2
+Mercato,Syrian,0.0,1.0,1.0,0.0,1
+Mercato,Turkish,0.0,1.0,4.666666666666667,2.0,5
+Mercato,Unknown,0.07142857142857142,0.9285714285714285,15.0,4.0,18
+Mercato,Uruguayan,1.0,0.0,1.0,0.0,1
+Mercato,Venezuelan,0.0,1.0,1.0,0.0,1
+Mirdif City Center,Algerian,0.0,1.0,1.0,0.0,1
+Mirdif City Center,American,0.0,1.0,1.0,0.0,1
+Mirdif City Center,Armenian,,,1.0,1.0,1
+Mirdif City Center,British,0.0,1.0,8.666666666666666,1.0,9
+Mirdif City Center,Burundian,0.0,1.0,1.0,0.0,1
+Mirdif City Center,Canadian,0.0,1.0,2.0,0.0,2
+Mirdif City Center,Chinese,0.0,1.0,1.0,0.0,1
+Mirdif City Center,Dominican,0.5,0.5,1.0,0.0,1
+Mirdif City Center,Dutch,0.0,1.0,1.0,0.0,1
+Mirdif City Center,Egyptian,0.0,1.0,3.0,0.0,3
+Mirdif City Center,Filipina,0.025641025641025644,0.9743589743589745,13.333333333333334,3.0,15
+Mirdif City Center,French,0.0,1.0,3.3333333333333335,1.0,4
+Mirdif City Center,Indian,0.022222222222222223,0.9777777777777779,16.333333333333332,2.0,17
+Mirdif City Center,Jordanian,0.3333333333333333,0.6666666666666666,1.3333333333333333,0.0,1
+Mirdif City Center,Lebanese,0.06666666666666667,0.9333333333333332,5.333333333333333,2.0,5
+Mirdif City Center,Malaysian,0.0,1.0,1.0,0.0,1
+Mirdif City Center,Montenegrin,0.0,1.0,1.0,1.0,1
+Mirdif City Center,Nepali,0.0,1.0,1.0,0.0,1
+Mirdif City Center,Norwegian,0.0,1.0,1.0,0.0,1
+Mirdif City Center,Pakistani,0.0,1.0,2.0,2.0,3
+Mirdif City Center,Portuguese,0.0,1.0,1.0,0.0,1
+Mirdif City Center,Russian,0.0,1.0,1.0,1.0,1
+Mirdif City Center,Spanish,0.0,1.0,2.0,0.0,2
+Mirdif City Center,Sri Lankan,0.0,1.0,2.0,0.0,2
+Mirdif City Center,Sudanese,0.0,1.0,1.0,0.0,1
+Mirdif City Center,Syrian,0.0,1.0,2.0,1.0,2
+Mirdif City Center,Tunisian,0.0,1.0,1.0,0.0,1
+Mirdif City Center,Turkish,0.0,1.0,1.0,0.0,1
+Mirdif City Center,Unknown,0.09444444444444444,0.9055555555555556,10.333333333333334,-1.0,9
+Mirdif City Center,Yemenite,,,1.0,1.0,1
+Mudon,American,0.0,1.0,3.0,0.0,3
+Mudon,Australian,0.0,1.0,6.0,0.0,6
+Mudon,Bahraini,1.0,0.0,1.0,0.0,1
+Mudon,Belgian,0.1111111111111111,0.888888888888889,2.6666666666666665,-2.0,2
+Mudon,Brazilian,0.1111111111111111,0.888888888888889,2.6666666666666665,-1.0,2
+Mudon,British,0.012345679012345678,0.9876543209876543,26.0,5.0,28
+Mudon,Canadian,0.041666666666666664,0.9583333333333334,8.333333333333334,1.0,9
+Mudon,Croatian,0.0,1.0,1.0,0.0,1
+Mudon,Dutch,0.0,1.0,1.0,0.0,1
+Mudon,Egyptian,0.05555555555555555,0.9444444444444445,10.666666666666666,-2.0,10
+Mudon,Filipina,0.0,1.0,2.0,0.0,2
+Mudon,Finnish,1.0,0.0,1.0,0.0,1
+Mudon,French,0.08928571428571429,0.9107142857142857,7.333333333333333,0.0,7
+Mudon,German,0.08333333333333333,0.9166666666666666,2.3333333333333335,-2.0,2
+Mudon,Hungarian,0.0,1.0,1.0,0.0,1
+Mudon,Indian,0.025641025641025644,0.9743589743589745,11.333333333333334,-2.0,11
+Mudon,Italian,0.0,1.0,3.0,0.0,3
+Mudon,Jordanian,0.08333333333333333,0.9166666666666666,7.333333333333333,-1.0,7
+Mudon,Lebanese,0.030303030303030304,0.9696969696969697,12.0,1.0,12
+Mudon,Mexican,0.0,1.0,1.0,0.0,1
+Mudon,Moroccan,0.0,1.0,2.0,0.0,2
+Mudon,New Zealander,0.0,1.0,1.0,0.0,1
+Mudon,Pakistani,0.0,1.0,4.0,0.0,4
+Mudon,Palestinian,0.3333333333333333,0.6666666666666666,1.3333333333333333,0.0,1
+Mudon,Portuguese,1.0,0.0,1.0,0.0,1
+Mudon,Russian,0.0,1.0,1.0,0.0,1
+Mudon,Saint Kitts And Nevis,0.0,1.0,1.0,0.0,1
+Mudon,Serbian,0.0,1.0,1.0,0.0,1
+Mudon,South African,0.06666666666666667,0.9333333333333332,4.333333333333333,-1.0,4
+Mudon,Spanish,0.0,1.0,2.0,1.0,2
+Mudon,Sri Lankan,0.0,1.0,1.0,0.0,1
+Mudon,Sudanese,0.0,1.0,1.0,0.0,1
+Mudon,Swiss,0.0,1.0,1.0,0.0,1
+Mudon,Syrian,0.0,1.0,2.0,1.0,2
+Mudon,Turkish,0.06666666666666667,0.9333333333333332,4.666666666666667,0.0,4
+Mudon,Unknown,0.13005050505050506,0.8699494949494949,12.0,-3.0,13
+Mudon,Uzbekistani,1.0,0.0,1.0,0.0,1
+Mudon,Zimbabwean,0.0,1.0,1.0,0.0,1
+Nakheel Mall,American,0.0,1.0,1.0,0.0,1
+Nakheel Mall,Australian,0.0,1.0,2.0,1.0,2
+Nakheel Mall,Belgian,1.0,0.0,1.0,0.0,1
+Nakheel Mall,British,0.0,1.0,9.333333333333334,3.0,10
+Nakheel Mall,Canadian,0.0,1.0,3.6666666666666665,2.0,4
+Nakheel Mall,Chinese,0.0,1.0,1.0,1.0,1
+Nakheel Mall,Egyptian,0.16666666666666666,0.8333333333333334,2.3333333333333335,1.0,2
+Nakheel Mall,French,0.0,1.0,3.3333333333333335,3.0,5
+Nakheel Mall,German,0.0,1.0,2.0,0.0,2
+Nakheel Mall,Indian,0.09523809523809523,0.9047619047619048,8.0,2.0,9
+Nakheel Mall,Irish,0.0,1.0,1.0,1.0,1
+Nakheel Mall,Italian,0.3333333333333333,0.6666666666666666,2.3333333333333335,2.0,3
+Nakheel Mall,Japanese,0.0,1.0,1.0,0.0,1
+Nakheel Mall,Jordanian,,,1.0,1.0,1
+Nakheel Mall,Lebanese,0.1111111111111111,0.888888888888889,3.0,1.0,3
+Nakheel Mall,Malaysian,0.0,1.0,1.0,0.0,1
+Nakheel Mall,Mauritanian,0.0,1.0,1.0,0.0,1
+Nakheel Mall,Moroccan,1.0,0.0,1.0,0.0,1
+Nakheel Mall,Norwegian,0.0,1.0,1.0,1.0,1
+Nakheel Mall,Portuguese,0.16666666666666666,0.8333333333333334,1.6666666666666667,-1.0,1
+Nakheel Mall,Romanian,0.0,1.0,1.0,1.0,1
+Nakheel Mall,Russian,0.0,1.0,1.6666666666666667,0.0,2
+Nakheel Mall,Saudi Arabian,0.0,1.0,1.0,0.0,1
+Nakheel Mall,South African,0.0,1.0,1.6666666666666667,1.0,2
+Nakheel Mall,South Korean,0.0,1.0,1.0,0.0,1
+Nakheel Mall,Spanish,0.0,1.0,1.5,2.0,2
+Nakheel Mall,Swedish,0.0,1.0,2.0,0.0,2
+Nakheel Mall,Turkish,0.06666666666666667,0.9333333333333332,5.0,5.0,6
+Nakheel Mall,Ukrainian,0.0,1.0,1.0,1.0,1
+Nakheel Mall,Unknown,0.0,1.0,7.333333333333333,7.0,10
+Oasis Mall,Algerian,0.0,1.0,1.0,0.0,1
+Oasis Mall,American,0.0,1.0,1.0,0.0,1
+Oasis Mall,Armenian,0.0,1.0,1.0,0.0,1
+Oasis Mall,Australian,0.0,1.0,1.6666666666666667,0.0,2
+Oasis Mall,Bangladeshi,0.0,1.0,1.0,0.0,1
+Oasis Mall,British,0.037037037037037035,0.9629629629629629,9.333333333333334,1.0,10
+Oasis Mall,Chinese,0.0,1.0,1.0,0.0,1
+Oasis Mall,Dominican,0.0,1.0,1.0,0.0,1
+Oasis Mall,Dutch,0.3333333333333333,0.6666666666666666,1.3333333333333333,0.0,1
+Oasis Mall,Egyptian,0.0,1.0,2.3333333333333335,1.0,3
+Oasis Mall,Filipina,0.0,1.0,13.0,2.0,14
+Oasis Mall,French,0.0,1.0,4.0,0.0,4
+Oasis Mall,German,0.16666666666666666,0.8333333333333334,1.3333333333333333,-1.0,1
+Oasis Mall,Indian,0.017543859649122806,0.9824561403508772,39.0,0.0,39
+Oasis Mall,Iranian,0.0,1.0,1.6666666666666667,1.0,2
+Oasis Mall,Italian,0.0,1.0,1.0,0.0,1
+Oasis Mall,Jordanian,0.0,1.0,4.0,0.0,4
+Oasis Mall,Kazakhstani,0.0,1.0,1.0,0.0,1
+Oasis Mall,Kenyan,0.0,1.0,1.0,0.0,1
+Oasis Mall,Lebanese,0.06666666666666667,0.9333333333333332,4.333333333333333,2.0,5
+Oasis Mall,Macedonian,0.0,1.0,1.0,0.0,1
+Oasis Mall,Moroccan,0.0,1.0,2.0,0.0,2
+Oasis Mall,Nigerian,0.0,1.0,2.0,0.0,2
+Oasis Mall,Pakistani,0.0,1.0,5.0,0.0,5
+Oasis Mall,Palestinian,0.0,1.0,1.0,0.0,1
+Oasis Mall,Portuguese,0.0,1.0,2.3333333333333335,1.0,3
+Oasis Mall,Qatari,0.0,1.0,1.0,0.0,1
+Oasis Mall,Russian,0.0,1.0,2.0,0.0,2
+Oasis Mall,Saint Kitts And Nevis,0.0,1.0,1.0,0.0,1
+Oasis Mall,South African,0.0,1.0,2.0,0.0,2
+Oasis Mall,South Korean,0.0,1.0,2.0,0.0,2
+Oasis Mall,Spanish,1.0,0.0,1.0,0.0,1
+Oasis Mall,Sri Lankan,0.0,1.0,1.0,0.0,1
+Oasis Mall,Swiss,0.0,1.0,1.0,0.0,1
+Oasis Mall,Syrian,0.0,1.0,1.6666666666666667,1.0,2
+Oasis Mall,Tunisian,0.0,1.0,1.0,1.0,1
+Oasis Mall,Turkish,0.3333333333333333,0.6666666666666666,2.3333333333333335,1.0,2
+Oasis Mall,UAE,0.5,0.5,1.0,0.0,1
+Oasis Mall,Unknown,0.0992063492063492,0.9007936507936508,13.0,-1.0,13
+Oasis Mall,Yemenite,0.0,1.0,1.0,0.0,1
+Off-Site Sales,American,0.0,1.0,1.0,0.0,1
+Off-Site Sales,Australian,0.0,1.0,3.0,0.0,3
+Off-Site Sales,British,0.0,1.0,2.0,0.0,2
+Off-Site Sales,Filipina,0.0,1.0,5.0,0.0,5
+Off-Site Sales,French,0.0,1.0,1.0,0.0,1
+Off-Site Sales,Syrian,0.0,1.0,1.0,0.0,1
+Pavilion,American,0.0,1.0,1.0,0.0,1
+Pavilion,Argentinean,0.0,1.0,1.0,1.0,1
+Pavilion,Australian,,,1.0,1.0,1
+Pavilion,Azerbaijani,0.0,1.0,1.0,0.0,1
+Pavilion,Belgian,0.0,1.0,1.0,1.0,1
+Pavilion,British,0.05897435897435898,0.9410256410256411,11.666666666666666,4.0,12
+Pavilion,Danish,0.0,1.0,1.3333333333333333,2.0,2
+Pavilion,Dutch,0.0,1.0,1.0,0.0,1
+Pavilion,Egyptian,0.08333333333333333,0.9166666666666666,2.3333333333333335,-2.0,2
+Pavilion,Filipina,0.0,1.0,3.0,0.0,3
+Pavilion,French,0.0,1.0,1.0,1.0,1
+Pavilion,Greek,,,1.0,1.0,1
+Pavilion,Indian,0.0,1.0,6.0,0.0,6
+Pavilion,Iranian,0.5,0.5,1.0,0.0,1
+Pavilion,Iraqi,0.0,1.0,1.0,0.0,1
+Pavilion,Irish,0.0,1.0,1.0,1.0,1
+Pavilion,Italian,0.0,1.0,4.0,2.0,5
+Pavilion,Jordanian,0.1111111111111111,0.888888888888889,2.6666666666666665,0.0,3
+Pavilion,Lebanese,0.16666666666666666,0.8333333333333334,2.0,1.0,2
+Pavilion,New Zealander,0.0,1.0,1.0,1.0,1
+Pavilion,Pakistani,0.0,1.0,1.0,-1.0,1
+Pavilion,Peruvian,0.0,1.0,1.0,0.0,1
+Pavilion,Russian,,,1.0,1.0,1
+Pavilion,Saint Kitts And Nevis,1.0,0.0,1.0,0.0,1
+Pavilion,Spanish,0.0,1.0,1.0,0.0,1
+Pavilion,Sri Lankan,0.0,1.0,1.0,0.0,1
+Pavilion,Turkish,0.0,1.0,3.0,1.0,3
+Pavilion,UAE,0.0,1.0,1.0,0.0,1
+Pavilion,Unknown,0.05555555555555555,0.9444444444444445,7.333333333333333,4.0,9
+Reem Mall,American,0.047619047619047616,0.9523809523809524,7.333333333333333,0.0,7
+Reem Mall,Armenian,0.0,1.0,1.0,1.0,1
+Reem Mall,Australian,0.0,1.0,6.0,1.0,6
+Reem Mall,Belgian,0.16666666666666666,0.8333333333333334,2.0,0.0,2
+Reem Mall,Bosnian,0.0,1.0,1.0,0.0,1
+Reem Mall,Brazilian,0.0,1.0,2.0,2.0,2
+Reem Mall,British,0.037037037037037035,0.9629629629629629,11.0,4.0,13
+Reem Mall,Canadian,0.06666666666666667,0.9333333333333332,4.333333333333333,-1.0,4
+Reem Mall,Chinese,0.0,1.0,1.0,0.0,1
+Reem Mall,Cypriot,0.0,1.0,1.0,0.0,1
+Reem Mall,Dutch,0.0,1.0,1.0,0.0,1
+Reem Mall,Ecuadorean,0.0,1.0,1.0,1.0,1
+Reem Mall,Egyptian,0.08333333333333333,0.9166666666666666,2.3333333333333335,-2.0,2
+Reem Mall,Ethiopian,0.0,1.0,2.0,0.0,2
+Reem Mall,Filipina,0.01041921041921042,0.9895807895807897,65.0,4.0,67
+Reem Mall,Finnish,0.0,1.0,1.0,1.0,1
+Reem Mall,French,0.0,1.0,3.3333333333333335,-1.0,4
+Reem Mall,Greek,0.0,1.0,1.0,0.0,1
+Reem Mall,Indian,0.013888888888888888,0.9861111111111112,23.666666666666668,5.0,26
+Reem Mall,Indonesian,0.0,1.0,1.0,0.0,1
+Reem Mall,Irish,0.0,1.0,2.0,0.0,2
+Reem Mall,Italian,0.08333333333333333,0.9166666666666666,5.333333333333333,1.0,5
+Reem Mall,Jordanian,0.053418803418803416,0.9465811965811967,12.666666666666666,3.0,13
+Reem Mall,Kazakhstani,0.0,1.0,1.0,0.0,1
+Reem Mall,Lebanese,0.06666666666666667,0.9333333333333332,9.333333333333334,0.0,10
+Reem Mall,Malaysian,0.0,1.0,1.0,1.0,1
+Reem Mall,Mauritian,0.0,1.0,2.0,0.0,2
+Reem Mall,Nepali,0.0,1.0,1.0,0.0,1
+Reem Mall,New Zealander,,,1.0,1.0,1
+Reem Mall,Pakistani,0.0,1.0,1.0,-1.0,1
+Reem Mall,Palestinian,0.0,1.0,2.0,0.0,2
+Reem Mall,Polish,0.0,1.0,1.0,0.0,1
+Reem Mall,Portuguese,0.0,1.0,1.0,0.0,1
+Reem Mall,Romanian,0.0,1.0,1.0,0.0,1
+Reem Mall,Russian,0.0,1.0,1.0,0.0,1
+Reem Mall,Serbian,0.0,1.0,1.0,1.0,1
+Reem Mall,Singaporean,0.0,1.0,1.0,0.0,1
+Reem Mall,South African,0.0,1.0,4.0,3.0,5
+Reem Mall,Spanish,0.0,1.0,2.0,0.0,2
+Reem Mall,Sudanese,0.0,1.0,1.0,0.0,1
+Reem Mall,Swiss,0.0,1.0,1.0,1.0,1
+Reem Mall,Syrian,0.0,1.0,1.0,0.0,1
+Reem Mall,Tunisian,0.0,1.0,1.0,0.0,1
+Reem Mall,Turkish,0.0,1.0,1.0,0.0,1
+Reem Mall,UAE,0.0,1.0,2.3333333333333335,0.0,3
+Reem Mall,Ukrainian,1.0,0.0,1.0,0.0,1
+Reem Mall,Unknown,0.08454106280193237,0.9154589371980677,23.666666666666668,0.0,24
+Sahara Center,Egyptian,0.0,1.0,1.0,0.0,1
+Sahara Center,Filipina,0.0,1.0,3.0,0.0,3
+Sahara Center,Indian,0.0,1.0,4.0,0.0,4
+Sahara Center,Senegalese,0.0,1.0,1.0,0.0,1
+Sahara Center,Unknown,0.16666666666666666,0.8333333333333334,1.3333333333333333,-1.0,1
+Shams Boutik,Australian,0.0,1.0,1.0,1.0,1
+Shams Boutik,British,0.0,1.0,3.3333333333333335,3.0,4
+Shams Boutik,Canadian,,,1.0,1.0,1
+Shams Boutik,Chinese,0.0,1.0,1.3333333333333333,1.0,2
+Shams Boutik,Dominican,,,1.0,1.0,1
+Shams Boutik,Dutch,1.0,0.0,1.0,1.0,1
+Shams Boutik,Filipina,0.0,1.0,1.6666666666666667,2.0,3
+Shams Boutik,French,0.0,1.0,1.5,2.0,2
+Shams Boutik,Indian,0.0,1.0,1.6666666666666667,2.0,2
+Shams Boutik,Irish,0.0,1.0,1.0,1.0,1
+Shams Boutik,Lebanese,0.0,1.0,1.0,1.0,1
+Shams Boutik,New Zealander,0.0,1.0,1.0,1.0,1
+Shams Boutik,Pakistani,0.0,1.0,1.0,1.0,1
+Shams Boutik,Unknown,1.0,0.0,1.0,1.0,1
+Sharjah City Center,Filipina,0.06666666666666667,0.9333333333333332,4.333333333333333,-1.0,4
+Sharjah City Center,Indian,0.1111111111111111,0.888888888888889,3.0,0.0,3
+Sharjah City Center,Iranian,0.0,1.0,1.0,0.0,1
+Sharjah City Center,Iraqi,0.0,1.0,1.0,0.0,1
+The Market,Australian,0.0,1.0,1.0,0.0,1
+The Market,British,0.0,1.0,4.0,-1.0,4
+The Market,Dutch,0.0,1.0,1.0,0.0,1
+The Market,Egyptian,0.0,1.0,2.0,0.0,2
+The Market,Filipina,0.1111111111111111,0.888888888888889,2.6666666666666665,-1.0,2
+The Market,German,0.0,1.0,1.0,0.0,1
+The Market,Greek,0.0,1.0,1.0,0.0,1
+The Market,Indian,0.047619047619047616,0.9523809523809524,5.333333333333333,-2.0,5
+The Market,Iraqi,0.0,1.0,1.0,0.0,1
+The Market,Italian,0.0,1.0,1.0,0.0,1
+The Market,Lebanese,0.0,1.0,1.0,0.0,1
+The Market,Portuguese,0.0,1.0,1.0,0.0,1
+The Market,Russian,0.0,1.0,1.0,0.0,1
+The Market,Saint Kitts And Nevis,0.0,1.0,1.0,0.0,1
+The Market,South African,0.0,1.0,1.0,0.0,1
+The Market,Sri Lankan,0.0,1.0,1.0,0.0,1
+The Market,Swedish,0.0,1.0,1.0,0.0,1
+The Market,Unknown,0.0,1.0,3.0,0.0,3
+Time Square Center,Angolan,1.0,0.0,1.0,1.0,1
+Time Square Center,British,1.0,0.0,1.0,1.0,1
+Time Square Center,Egyptian,0.0,1.0,1.0,1.0,1
+Time Square Center,French,0.3333333333333333,0.6666666666666667,3.0,2.0,2
+Time Square Center,Indian,0.0,1.0,1.6666666666666667,2.0,2
+Time Square Center,Lebanese,1.0,0.0,1.0,1.0,1
+Time Square Center,Russian,0.0,1.0,1.0,1.0,1
+Time Square Center,Tanzanian,,,1.0,1.0,1
+Time Square Center,Ukrainian,,,1.0,1.0,1
+Time Square Center,Unknown,0.0,1.0,3.0,4.0,4
+World Trade Center 3,Filipina,0.25,0.75,1.6666666666666667,2.0,2
+World Trade Center 3,Indian,0.0,1.0,2.5,4.0,4
+World Trade Center 3,Spanish,0.0,1.0,1.0,1.0,1
+World Trade Center 3,UAE,,,1.0,1.0,1
+World Trade Center 3,Unknown,0.0,1.0,1.0,1.0,1
+Yalayis,Canadian,0.0,1.0,1.0,0.0,1
+Yalayis,Indian,0.0,1.0,1.0,0.0,1
+Yalayis,Lebanese,0.0,1.0,1.0,0.0,1
+Yas Mall,American,0.13333333333333333,0.8666666666666667,4.666666666666667,-2.0,4
+Yas Mall,Argentinean,0.0,1.0,2.0,-1.0,2
+Yas Mall,Australian,0.0,1.0,6.0,1.0,7
+Yas Mall,Austrian,0.0,1.0,1.0,0.0,1
+Yas Mall,Belgian,0.0,1.0,2.0,0.0,2
+Yas Mall,Belizean,0.0,1.0,1.0,0.0,1
+Yas Mall,Brazilian,0.0,1.0,2.0,0.0,2
+Yas Mall,British,0.038085559427022846,0.961914440572977,46.0,7.0,48
+Yas Mall,Canadian,0.0,1.0,12.333333333333334,3.0,13
+Yas Mall,Dutch,0.0,1.0,1.0,0.0,1
+Yas Mall,Egyptian,0.0,1.0,8.0,0.0,8
+Yas Mall,Filipina,0.030303030303030304,0.9696969696969697,31.333333333333332,-3.0,30
+Yas Mall,Finnish,0.0,1.0,2.0,0.0,2
+Yas Mall,French,0.027777777777777776,0.9722222222222222,11.666666666666666,1.0,12
+Yas Mall,German,0.0,1.0,2.0,0.0,2
+Yas Mall,Greek,0.0,1.0,2.6666666666666665,1.0,3
+Yas Mall,Indian,0.0,1.0,15.0,3.0,16
+Yas Mall,Indonesian,0.0,1.0,4.0,0.0,4
+Yas Mall,Iraqi,0.0,1.0,1.0,0.0,1
+Yas Mall,Irish,0.08333333333333333,0.9166666666666666,4.333333333333333,0.0,4
+Yas Mall,Italian,0.1111111111111111,0.888888888888889,3.3333333333333335,0.0,3
+Yas Mall,Jordanian,0.0,1.0,6.666666666666667,2.0,8
+Yas Mall,Kazakhstani,0.0,1.0,1.0,0.0,1
+Yas Mall,Lebanese,0.0,1.0,4.333333333333333,1.0,5
+Yas Mall,Libyan,0.16666666666666666,0.8333333333333334,2.0,0.0,2
+Yas Mall,Macedonian,0.0,1.0,1.0,0.0,1
+Yas Mall,Malaysian,0.0,1.0,2.0,1.0,2
+Yas Mall,Malian,0.0,1.0,1.0,1.0,1
+Yas Mall,Mexican,0.0,1.0,1.0,1.0,1
+Yas Mall,Moroccan,0.16666666666666666,0.8333333333333334,1.6666666666666667,-1.0,1
+Yas Mall,Pakistani,0.0,1.0,4.0,0.0,4
+Yas Mall,Palestinian,0.0,1.0,1.0,0.0,1
+Yas Mall,Panamanian,0.0,1.0,1.0,0.0,1
+Yas Mall,Portuguese,0.0,1.0,3.0,0.0,3
+Yas Mall,Romanian,0.0,1.0,1.0,0.0,1
+Yas Mall,Russian,0.0,1.0,2.0,0.0,2
+Yas Mall,Serbian,0.0,1.0,1.0,0.0,1
+Yas Mall,Seychellois,0.0,1.0,1.0,0.0,1
+Yas Mall,Singaporean,0.0,1.0,1.3333333333333333,1.0,2
+Yas Mall,South African,0.0,1.0,7.0,0.0,7
+Yas Mall,South Korean,0.0,1.0,1.0,0.0,1
+Yas Mall,Spanish,0.0,1.0,5.0,1.0,5
+Yas Mall,Sri Lankan,0.0,1.0,1.0,0.0,1
+Yas Mall,Swedish,0.0,1.0,2.0,0.0,2
+Yas Mall,Swiss,0.0,1.0,1.0,0.0,1
+Yas Mall,Syrian,0.0,1.0,2.0,0.0,2
+Yas Mall,Turkish,0.0,1.0,2.0,1.0,2
+Yas Mall,UAE,1.0,0.0,1.0,0.0,1
+Yas Mall,Ugandan,0.0,1.0,1.0,0.0,1
+Yas Mall,Unknown,0.09435626102292767,0.9056437389770723,24.0,6.0,24
+Yas Mall,Zimbabwean,0.0,1.0,1.0,0.0,1
+Yas Mall 2,American,0.0,1.0,1.0,1.0,1
+Yas Mall 2,British,0.0,1.0,1.3333333333333333,2.0,2
+Yas Mall 2,French,0.0,1.0,1.6666666666666667,2.0,2
+Yas Mall 2,South African,0.0,1.0,1.0,1.0,1
+Yas Mall 2,UAE,0.0,1.0,1.0,1.0,1
+Zahraa,Congolese,0.0,1.0,1.0,0.0,1
+Zahraa,Croatian,0.0,1.0,1.0,0.0,1
+Zahraa,Egyptian,0.0,1.0,1.0,0.0,1
+Zahraa,French,0.0,1.0,1.0,0.0,1
+Zahraa,Irish,0.0,1.0,1.0,0.0,1
+Zahraa,Jordanian,0.2222222222222222,0.7777777777777778,2.0,-2.0,1
+Zahraa,Lebanese,0.16666666666666666,0.8333333333333334,2.0,0.0,2
+Zahraa,Spanish,0.0,1.0,1.0,0.0,1
+Zahraa,Unknown,0.0,1.0,1.0,0.0,1
+Zahraa,Uruguayan,0.0,1.0,1.0,0.0,1

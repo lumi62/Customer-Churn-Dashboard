@@ -1,0 +1,9 @@
+{
+  "source_rows":5975,
+  "clean_rows":5875,
+  "analysis_end":"2025-11-30T23:02:48",
+  "kiosk_count":31,
+  "nationality_count":124,
+  "missing_nationality":1053,
+  "contracts_with_multiple_locations_removed":3
+}

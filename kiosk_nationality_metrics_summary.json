@@ -1,0 +1,69 @@
+{
+  "latest_month":"2025-11-01T00:00:00",
+  "distinct_kiosks":31,
+  "distinct_nationalities":124,
+  "top_growth_examples":[
+    {
+      "Kiosk":"Main center Dubai",
+      "Client Nationality":"Unknown",
+      "net_change_total":27.0,
+      "latest_active":29
+    },
+    {
+      "Kiosk":"Main center Dubai",
+      "Client Nationality":"Indian",
+      "net_change_total":11.0,
+      "latest_active":19
+    },
+    {
+      "Kiosk":"Mall of Emirates",
+      "Client Nationality":"Unknown",
+      "net_change_total":11.0,
+      "latest_active":36
+    },
+    {
+      "Kiosk":"Main center Dubai",
+      "Client Nationality":"Lebanese",
+      "net_change_total":7.0,
+      "latest_active":8
+    },
+    {
+      "Kiosk":"Festival Plaza",
+      "Client Nationality":"Unknown",
+      "net_change_total":7.0,
+      "latest_active":38
+    }
+  ],
+  "top_churn_examples":[
+    {
+      "Kiosk":"Pavilion",
+      "Client Nationality":"Saint Kitts And Nevis",
+      "avg_churn_rate":1.0,
+      "latest_active":1
+    },
+    {
+      "Kiosk":"Mudon",
+      "Client Nationality":"Portuguese",
+      "avg_churn_rate":1.0,
+      "latest_active":1
+    },
+    {
+      "Kiosk":"Yas Mall",
+      "Client Nationality":"UAE",
+      "avg_churn_rate":1.0,
+      "latest_active":1
+    },
+    {
+      "Kiosk":"Mercato",
+      "Client Nationality":"Dominican",
+      "avg_churn_rate":1.0,
+      "latest_active":1
+    },
+    {
+      "Kiosk":"Festival Plaza",
+      "Client Nationality":"Chinese",
+      "avg_churn_rate":1.0,
+      "latest_active":1
+    }
+  ]
+}

@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang='en'>
+<head>
+<meta charset='utf-8'>
+<title>Pavilion — Kiosk Nationality Analysis</title>
+<style>
+body { font-family: 'Helvetica Neue', Arial, sans-serif; margin: 0; background: #f5f7fb; color: #1f2937; }
+.header { background: #0f172a; color: #f8fafc; padding: 28px 40px; position: sticky; top: 0; z-index: 20; display: flex; align-items: center; justify-content: space-between; }
+.header h1 { margin: 0; font-size: 24px; }
+.header span { color: #94a3b8; font-size: 14px; }
+.menu-button { width: 44px; height: 44px; border-radius: 8px; background: rgba(148, 163, 184, 0.1); border: 1px solid rgba(148, 163, 184, 0.3); display: grid; place-content: center; cursor: pointer; transition: background 0.2s ease; }
+.menu-button span { display: block; width: 20px; height: 2px; background: #f8fafc; margin: 3px 0; border-radius: 2px; }
+.menu-button:hover { background: rgba(148, 163, 184, 0.24); }
+.drawer { position: fixed; inset: 0; background: rgba(15, 23, 42, 0.75); backdrop-filter: blur(3px); opacity: 0; pointer-events: none; transition: opacity 0.25s ease; z-index: 30; }
+.drawer.open { opacity: 1; pointer-events: auto; }
+.drawer-panel { position: absolute; top: 0; left: 0; bottom: 0; width: min(320px, 90vw); background: #0b1220; padding: 32px 28px; box-shadow: 8px 0 24px rgba(2, 6, 23, 0.2); overflow-y: auto; }
+.drawer-panel h2 { color: #e2e8f0; font-size: 18px; margin: 0 0 16px; }
+.drawer-panel ul { list-style: none; padding: 0; margin: 0; display: grid; gap: 10px; }
+.drawer-panel a { display: block; padding: 10px 12px; border-radius: 8px; color: #e2e8f0; text-decoration: none; font-weight: 500; transition: background 0.2s ease, transform 0.2s ease; }
+.drawer-panel a:hover { background: rgba(148, 163, 184, 0.16); transform: translateX(4px); }
+.section { padding: 32px 40px; }
+.section h2 { margin-top: 0; color: #0f172a; }
+.cards { display: grid; gap: 18px; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); margin-top: 20px; }
+.card { background: #ffffff; border-radius: 12px; padding: 18px 20px; box-shadow: 0 6px 16px rgba(15, 23, 42, 0.08); }
+.card h3 { margin: 0; font-size: 14px; color: #64748b; text-transform: uppercase; letter-spacing: 0.05em; }
+.card p { margin: 8px 0 0; font-size: 24px; font-weight: 600; color: #0f172a; }
+.card span { font-size: 13px; color: #64748b; }
+.panel-grid { display: grid; gap: 22px; grid-template-columns: repeat(auto-fit, minmax(320px, 1fr)); }
+.panel { background: #ffffff; border-radius: 12px; padding: 22px 24px; box-shadow: 0 4px 12px rgba(15, 23, 42, 0.08); }
+.panel h3 { margin-top: 0; }
+.panel ul { margin: 12px 0 0; padding-left: 20px; color: #475569; }
+.data-table { width: 100%; border-collapse: collapse; margin-top: 12px; font-size: 14px; }
+.data-table th, .data-table td { border: 1px solid #e2e8f0; padding: 8px 10px; text-align: left; }
+.data-table th { background: #f1f5f9; color: #0f172a; }
+.data-table tr:nth-child(even) { background: #f8fafc; }
+.note { font-size: 13px; color: #64748b; margin-top: 10px; }
+.footer { padding: 24px 40px 60px; color: #64748b; font-size: 13px; }
+.back-link { color: #38bdf8; text-decoration: none; }
+@media (max-width: 720px) {
+  .section { padding: 24px; }
+  .header { padding: 24px; }
+}
+</style>
+<script>
+function toggleMenu() {
+  const drawer = document.getElementById('nav-drawer');
+  drawer.classList.toggle('open');
+}
+function closeMenu(event) {
+  if (event.target.id === 'nav-drawer') {
+    toggleMenu();
+  }
+}
+</script>
+</head>
+<body>
+<header class='header'>
+  <div>
+    <h1>Pavilion</h1>
+    <span>Nationality and churn insights per kiosk</span>
+  </div>
+  <div class='menu-button' onclick='toggleMenu()'>
+    <span></span>
+    <span></span>
+    <span></span>
+  </div>
+</header>
+<div class='drawer' id='nav-drawer' onclick='closeMenu(event)'>
+  <div class='drawer-panel'>
+    <h2>Kiosks</h2>
+    <ul>
+      <li><a href='index.html'>← Back to Executive Report</a></li>
+<li><a href='bay-avenue.html'>Bay Avenue</a></li>
+<li><a href='brands-for-less.html'>Brands For Less</a></li>
+<li><a href='circle-mall.html'>Circle Mall</a></li>
+<li><a href='city-centre-me-aisem.html'>City Centre Me'aisem</a></li>
+<li><a href='dubai-hills.html'>Dubai Hills</a></li>
+<li><a href='festival-city.html'>Festival City</a></li>
+<li><a href='festival-plaza.html'>Festival Plaza</a></li>
+<li><a href='first-avenue.html'>First Avenue</a></li>
+<li><a href='golden-miles.html'>Golden Miles</a></li>
+<li><a href='main-center-dubai.html'>Main center Dubai</a></li>
+<li><a href='mall-of-emirates.html'>Mall of Emirates</a></li>
+<li><a href='marina-mall.html'>Marina Mall</a></li>
+<li><a href='meadows-souk-shop.html'>Meadows souk shop</a></li>
+<li><a href='mercato.html'>Mercato</a></li>
+<li><a href='mirdif-city-center.html'>Mirdif City Center</a></li>
+<li><a href='mudon.html'>Mudon</a></li>
+<li><a href='nakheel-mall.html'>Nakheel Mall</a></li>
+<li><a href='oasis-mall.html'>Oasis Mall</a></li>
+<li><a href='off-site-sales.html'>Off-Site Sales</a></li>
+<li><a href='pavilion.html'>Pavilion</a></li>
+<li><a href='reem-mall.html'>Reem Mall</a></li>
+<li><a href='sahara-center.html'>Sahara Center</a></li>
+<li><a href='shams-boutik.html'>Shams Boutik</a></li>
+<li><a href='sharjah-city-center.html'>Sharjah City Center</a></li>
+<li><a href='the-market.html'>The Market</a></li>
+<li><a href='time-square-center.html'>Time Square Center</a></li>
+<li><a href='world-trade-center-3.html'>World Trade Center 3</a></li>
+<li><a href='yalayis.html'>Yalayis</a></li>
+<li><a href='yas-mall.html'>Yas Mall</a></li>
+<li><a href='yas-mall-2.html'>Yas Mall 2</a></li>
+<li><a href='zahraa.html'>Zahraa</a></li>
+    </ul>
+  </div>
+</div>
+<section class='section'>
+  <h2>Key Metrics</h2>
+  <div class='cards'><div class='card'><h3>Active Contracts (current)</h3><p>64</p><span>Active in latest month snapshot (2025-11)</span></div><div class='card'><h3>New Contracts</h3><p>10</p><span>Signed during latest month</span></div><div class='card'><h3>Terminations</h3><p>1</p><span>Closed during latest month</span></div><div class='card'><h3>Nationalities</h3><p>27</p><span>Unique in latest month</span></div><div class='card'><h3>Unknown</h3><p>9</p><span>14.1% of active base</span></div></div>
+</section>
+<section class='section'>
+  <h2>Highlights</h2>
+  <div class='panel'>
+    <h3>What changed recently</h3>
+    <ul><li>British is the leading cohort with 12 active contracts (18.8%).</li><li>9 contracts (14.1%) still have nationality marked as Unknown.</li><li>Active contracts grew by 6 versus 2025-10.</li><li>Largest net growth in the last quarter: 4.0 net British contracts.</li><li>Highest recent churn: Saint Kitts And Nevis at 100.0% (avg) with 1 active contracts.</li></ul>
+  </div>
+</section>
+<section class='section'>
+  <h2>Latest Nationality Mix</h2>
+  <div class='panel'>
+    <h3>Top nationalities (Nov 2025)</h3><table class='dataframe data-table'><thead><tr><th>Client Nationality</th><th>Active</th><th>Share</th><th>New</th><th>Terminations</th><th>Churn</th><th>Retention</th></tr></thead><tbody><tr><td>British</td><td>12</td><td>18.8%</td><td>0</td><td>1</td><td>7.7%</td><td>92.3%</td></tr><tr><td>Unknown</td><td>9</td><td>14.1%</td><td>3</td><td>0</td><td>0.0%</td><td>100.0%</td></tr><tr><td>Indian</td><td>6</td><td>9.4%</td><td>0</td><td>0</td><td>0.0%</td><td>100.0%</td></tr><tr><td>Italian</td><td>5</td><td>7.8%</td><td>1</td><td>0</td><td>0.0%</td><td>100.0%</td></tr><tr><td>Filipina</td><td>3</td><td>4.7%</td><td>0</td><td>0</td><td>0.0%</td><td>100.0%</td></tr><tr><td>Jordanian</td><td>3</td><td>4.7%</td><td>1</td><td>0</td><td>0.0%</td><td>100.0%</td></tr><tr><td>Turkish</td><td>3</td><td>4.7%</td><td>0</td><td>0</td><td>0.0%</td><td>100.0%</td></tr><tr><td>Danish</td><td>2</td><td>3.1%</td><td>1</td><td>0</td><td>0.0%</td><td>100.0%</td></tr><tr><td>Egyptian</td><td>2</td><td>3.1%</td><td>0</td><td>0</td><td>0.0%</td><td>100.0%</td></tr><tr><td>Lebanese</td><td>2</td><td>3.1%</td><td>1</td><td>0</td><td>0.0%</td><td>100.0%</td></tr></tbody></table><p class='note'>Includes top 10 nationalities ranked by active contracts for the latest complete month.</p>
+  </div>
+</section>
+<section class='section'>
+  <h2>Recent Growth & Churn</h2>
+  <div class='panel-grid'>
+    <div class='panel'>
+      <h3>Growth (last 3 months)</h3>
+      <table class='dataframe data-table'><thead><tr><th>Client Nationality</th><th>Net Change</th><th>Avg Active</th><th>Avg Retention</th><th>Latest Active</th></tr></thead><tbody><tr><td>British</td><td>4.0</td><td>11.7</td><td>94.1%</td><td>12</td></tr><tr><td>Unknown</td><td>4.0</td><td>7.3</td><td>94.4%</td><td>9</td></tr><tr><td>Danish</td><td>2.0</td><td>1.3</td><td>100.0%</td><td>2</td></tr><tr><td>Italian</td><td>2.0</td><td>4.0</td><td>100.0%</td><td>5</td></tr><tr><td>Lebanese</td><td>1.0</td><td>2.0</td><td>83.3%</td><td>2</td></tr></tbody></table>
+    </div>
+    <div class='panel'>
+      <h3>Churn focus (last 3 months)</h3>
+      <table class='dataframe data-table'><thead><tr><th>Client Nationality</th><th>Avg Churn</th><th>Avg Retention</th><th>Latest Active</th><th>Net Change</th></tr></thead><tbody><tr><td>Saint Kitts And Nevis</td><td>100.0%</td><td>—</td><td>1</td><td>0.0</td></tr><tr><td>Iranian</td><td>50.0%</td><td>50.0%</td><td>1</td><td>0.0</td></tr><tr><td>Lebanese</td><td>16.7%</td><td>83.3%</td><td>2</td><td>1.0</td></tr><tr><td>Jordanian</td><td>11.1%</td><td>88.9%</td><td>3</td><td>0.0</td></tr><tr><td>Egyptian</td><td>8.3%</td><td>91.7%</td><td>2</td><td>-2.0</td></tr></tbody></table>
+    </div>
+  </div>
+</section>
+<section class='section'>
+  <h2>Active Contracts Trend</h2>
+  <div class='panel'>
+    <h3>Trailing 12 months</h3>
+    <table class='dataframe data-table'><thead><tr><th>Month</th><th>Contracts Signed (payment month)</th></tr></thead><tbody><tr><td>2024-12</td><td>4</td></tr><tr><td>2025-01</td><td>5</td></tr><tr><td>2025-02</td><td>5</td></tr><tr><td>2025-03</td><td>6</td></tr><tr><td>2025-04</td><td>8</td></tr><tr><td>2025-05</td><td>6</td></tr><tr><td>2025-06</td><td>4</td></tr><tr><td>2025-07</td><td>5</td></tr><tr><td>2025-08</td><td>9</td></tr><tr><td>2025-09</td><td>12</td></tr><tr><td>2025-10</td><td>6</td></tr><tr><td>2025-11</td><td>10</td></tr></tbody></table>
+  </div>
+</section>
+<footer class='footer'>
+  <a class='back-link' href='index.html'>Back to executive report</a> · Latest refresh: 2025-11-01
+</footer>
+</body>
+</html>

@@ -1,0 +1,65 @@
+{
+  "missing": {
+    "Contract ID": 0,
+    "Interview Location": 0,
+    "Contract Creation Date": 0,
+    "Contract Client ID": 0,
+    "Contract Type": 0,
+    "Paid Date": 333,
+    "Client Name": 3,
+    "City": 243,
+    "Termination Date": 4073,
+    "Client Nationality": 1313
+  },
+  "missing_pct": {
+    "Contract ID": 0.0,
+    "Interview Location": 0.0,
+    "Contract Creation Date": 0.0,
+    "Contract Client ID": 0.0,
+    "Contract Type": 0.0,
+    "Paid Date": 4.24,
+    "Client Name": 0.04,
+    "City": 3.1,
+    "Termination Date": 51.92,
+    "Client Nationality": 16.74
+  },
+  "blank_counts": {
+    "Interview Location": 0,
+    "Contract Creation Date": 0,
+    "Contract Type": 0,
+    "Paid Date": 0,
+    "Client Name": 0,
+    "City": 0,
+    "Termination Date": 0,
+    "Client Nationality": 0
+  },
+  "duplicates": {
+    "Contract ID": 117,
+    "Contract Client ID": 427,
+    "Full Record": 97
+  },
+  "datetime_parse": {
+    "Contract Creation Date": {
+      "non_null": 7845,
+      "invalid": 0
+    },
+    "Paid Date": {
+      "non_null": 7512,
+      "invalid": 0
+    },
+    "Termination Date": {
+      "non_null": 3772,
+      "invalid": 1
+    }
+  },
+  "string_whitespace": {
+    "Interview Location": 0,
+    "Contract Creation Date": 0,
+    "Contract Type": 0,
+    "Paid Date": 0,
+    "Client Name": 1,
+    "City": 0,
+    "Termination Date": 0,
+    "Client Nationality": 0
+  }
+}

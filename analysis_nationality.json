@@ -1,0 +1,801 @@
+{
+  "top_nationalities_overall": {
+    "Unknown": 1313,
+    "Indian": 942,
+    "British": 718,
+    "Filipina": 633,
+    "Lebanese": 437,
+    "Egyptian": 301,
+    "French": 275,
+    "Jordanian": 263,
+    "Canadian": 221,
+    "Pakistani": 178,
+    "Turkish": 155,
+    "American": 154,
+    "German": 124,
+    "South African": 118,
+    "Russian": 118,
+    "Australian": 118,
+    "Italian": 114,
+    "Syrian": 105,
+    "Emirati": 85,
+    "Iranian": 83
+  },
+  "location_nationality_matrix": {
+    "Bay Avenue": {
+      "British": 28,
+      "Canadian": 7,
+      "Egyptian": 5,
+      "Filipina": 9,
+      "French": 8,
+      "Indian": 75,
+      "Lebanese": 8,
+      "Pakistani": 9,
+      "Unknown": 58
+    },
+    "Brands For Less": {
+      "British": 2,
+      "Egyptian": 1,
+      "Filipina": 2,
+      "Indian": 2,
+      "Jordanian": 2,
+      "Lebanese": 5,
+      "Pakistani": 1,
+      "Unknown": 3
+    },
+    "Circle Mall": {
+      "British": 42,
+      "Canadian": 3,
+      "Egyptian": 17,
+      "Filipina": 8,
+      "French": 12,
+      "Indian": 23,
+      "Jordanian": 15,
+      "Lebanese": 40,
+      "Pakistani": 9,
+      "Unknown": 58
+    },
+    "City Centre Me'aisem": {
+      "British": 26,
+      "Canadian": 4,
+      "Egyptian": 4,
+      "Filipina": 14,
+      "French": 3,
+      "Indian": 40,
+      "Jordanian": 11,
+      "Lebanese": 28,
+      "Pakistani": 7,
+      "Unknown": 39
+    },
+    "Dubai Hills": {
+      "British": 4,
+      "Indian": 1,
+      "Unknown": 2
+    },
+    "Festival City": {
+      "British": 38,
+      "Canadian": 12,
+      "Egyptian": 13,
+      "Filipina": 129,
+      "French": 21,
+      "Indian": 62,
+      "Jordanian": 7,
+      "Lebanese": 19,
+      "Pakistani": 10,
+      "Unknown": 89
+    },
+    "Festival Plaza": {
+      "British": 60,
+      "Canadian": 12,
+      "Egyptian": 17,
+      "Filipina": 75,
+      "French": 12,
+      "Indian": 138,
+      "Jordanian": 18,
+      "Lebanese": 29,
+      "Pakistani": 18,
+      "Unknown": 104
+    },
+    "First Avenue": {
+      "British": 20,
+      "Canadian": 9,
+      "Egyptian": 16,
+      "Filipina": 5,
+      "French": 5,
+      "Indian": 25,
+      "Jordanian": 8,
+      "Lebanese": 17,
+      "Pakistani": 8,
+      "Unknown": 33
+    },
+    "Golden Miles": {
+      "British": 23,
+      "Canadian": 7,
+      "Egyptian": 9,
+      "Filipina": 6,
+      "French": 3,
+      "Indian": 7,
+      "Lebanese": 2,
+      "Pakistani": 1,
+      "Unknown": 36
+    },
+    "Main center Dubai": {
+      "British": 155,
+      "Canadian": 69,
+      "Egyptian": 115,
+      "Filipina": 92,
+      "French": 78,
+      "Indian": 232,
+      "Jordanian": 101,
+      "Lebanese": 131,
+      "Pakistani": 49,
+      "Unknown": 291
+    },
+    "Mall of Emirates": {
+      "British": 31,
+      "Canadian": 11,
+      "Egyptian": 11,
+      "Filipina": 31,
+      "French": 18,
+      "Indian": 33,
+      "Jordanian": 4,
+      "Lebanese": 24,
+      "Pakistani": 11,
+      "Unknown": 90
+    },
+    "Marina Mall": {
+      "British": 14,
+      "Canadian": 7,
+      "Egyptian": 10,
+      "Filipina": 56,
+      "French": 9,
+      "Indian": 39,
+      "Jordanian": 7,
+      "Lebanese": 7,
+      "Pakistani": 6,
+      "Unknown": 41
+    },
+    "Meadows souk shop": {
+      "British": 39,
+      "Canadian": 12,
+      "Egyptian": 6,
+      "Filipina": 6,
+      "French": 10,
+      "Indian": 30,
+      "Jordanian": 8,
+      "Lebanese": 22,
+      "Pakistani": 7,
+      "Unknown": 56
+    },
+    "Mercato": {
+      "British": 23,
+      "Canadian": 12,
+      "Egyptian": 7,
+      "Filipina": 16,
+      "French": 24,
+      "Indian": 32,
+      "Jordanian": 6,
+      "Lebanese": 14,
+      "Pakistani": 5,
+      "Unknown": 62
+    },
+    "Mirdif City Center": {
+      "British": 13,
+      "Canadian": 3,
+      "Egyptian": 3,
+      "Filipina": 18,
+      "French": 5,
+      "Indian": 23,
+      "Jordanian": 2,
+      "Lebanese": 10,
+      "Pakistani": 4,
+      "Unknown": 29
+    },
+    "Mudon": {
+      "British": 46,
+      "Canadian": 12,
+      "Egyptian": 23,
+      "Filipina": 2,
+      "French": 12,
+      "Indian": 21,
+      "Jordanian": 20,
+      "Lebanese": 24,
+      "Pakistani": 8,
+      "Unknown": 57
+    },
+    "Nakheel Mall": {
+      "British": 11,
+      "Canadian": 5,
+      "Egyptian": 3,
+      "Filipina": 1,
+      "French": 6,
+      "Indian": 12,
+      "Jordanian": 1,
+      "Lebanese": 3,
+      "Unknown": 15
+    },
+    "Oasis Mall": {
+      "British": 15,
+      "Egyptian": 3,
+      "Filipina": 17,
+      "French": 7,
+      "Indian": 56,
+      "Jordanian": 7,
+      "Lebanese": 7,
+      "Pakistani": 6,
+      "Unknown": 57
+    },
+    "Off-Site Sales": {
+      "British": 4,
+      "Filipina": 6,
+      "French": 1,
+      "Indian": 1,
+      "Jordanian": 1,
+      "Unknown": 5
+    },
+    "Pavilion": {
+      "British": 17,
+      "Canadian": 1,
+      "Egyptian": 9,
+      "Filipina": 3,
+      "French": 1,
+      "Indian": 6,
+      "Jordanian": 6,
+      "Lebanese": 7,
+      "Pakistani": 3,
+      "Unknown": 24
+    },
+    "Reem Mall": {
+      "British": 16,
+      "Canadian": 8,
+      "Egyptian": 8,
+      "Filipina": 78,
+      "French": 7,
+      "Indian": 29,
+      "Jordanian": 17,
+      "Lebanese": 20,
+      "Pakistani": 4,
+      "Unknown": 54
+    },
+    "Sahara Center": {
+      "Canadian": 1,
+      "Egyptian": 2,
+      "Filipina": 7,
+      "Indian": 8,
+      "Unknown": 5
+    },
+    "Shams Boutik": {
+      "British": 4,
+      "Canadian": 1,
+      "Filipina": 3,
+      "French": 2,
+      "Indian": 2,
+      "Lebanese": 1,
+      "Pakistani": 3,
+      "Unknown": 1
+    },
+    "Sharjah City Center": {
+      "Egyptian": 1,
+      "Filipina": 7,
+      "Indian": 5,
+      "Pakistani": 1,
+      "Unknown": 4
+    },
+    "The Market": {
+      "British": 8,
+      "Canadian": 1,
+      "Egyptian": 2,
+      "Filipina": 5,
+      "Indian": 9,
+      "Lebanese": 3,
+      "Unknown": 7
+    },
+    "Time Square Center": {
+      "British": 1,
+      "Egyptian": 1,
+      "French": 4,
+      "Indian": 2,
+      "Lebanese": 1,
+      "Unknown": 4
+    },
+    "World Trade Center 3": {
+      "Filipina": 2,
+      "Indian": 4,
+      "Unknown": 2
+    },
+    "Yalayis": {
+      "British": 1,
+      "Canadian": 1,
+      "Egyptian": 1,
+      "Indian": 2,
+      "Jordanian": 1,
+      "Lebanese": 1,
+      "Unknown": 1
+    },
+    "Yas Mall": {
+      "British": 72,
+      "Canadian": 20,
+      "Egyptian": 11,
+      "Filipina": 35,
+      "French": 21,
+      "Indian": 21,
+      "Jordanian": 16,
+      "Lebanese": 11,
+      "Pakistani": 8,
+      "Unknown": 78
+    },
+    "Yas Mall 2": {
+      "British": 2,
+      "French": 3
+    },
+    "Zahraa": {
+      "British": 3,
+      "Canadian": 3,
+      "Egyptian": 3,
+      "French": 3,
+      "Indian": 2,
+      "Jordanian": 5,
+      "Lebanese": 3,
+      "Unknown": 8
+    }
+  },
+  "top_nationality_metrics": {
+    "Unknown": {
+      "count": 1313,
+      "share_pct": 16.74,
+      "top_locations": {
+        "Main center Dubai": {
+          "count": 291,
+          "share_pct": 22.16
+        },
+        "Festival Plaza": {
+          "count": 104,
+          "share_pct": 7.92
+        },
+        "Mall of Emirates": {
+          "count": 90,
+          "share_pct": 6.85
+        },
+        "Festival City": {
+          "count": 89,
+          "share_pct": 6.78
+        },
+        "Yas Mall": {
+          "count": 78,
+          "share_pct": 5.94
+        }
+      },
+      "termination_rate": 0.6824,
+      "terminated_mean_duration_days": 81.31445774946262,
+      "terminated_median_duration_days": 29.34362847222222,
+      "median_time_to_payment_days": 0.000787037037037037
+    },
+    "Indian": {
+      "count": 942,
+      "share_pct": 12.01,
+      "top_locations": {
+        "Main center Dubai": {
+          "count": 232,
+          "share_pct": 24.63
+        },
+        "Festival Plaza": {
+          "count": 138,
+          "share_pct": 14.65
+        },
+        "Bay Avenue": {
+          "count": 75,
+          "share_pct": 7.96
+        },
+        "Festival City": {
+          "count": 62,
+          "share_pct": 6.58
+        },
+        "Oasis Mall": {
+          "count": 56,
+          "share_pct": 5.94
+        }
+      },
+      "termination_rate": 0.3588,
+      "terminated_mean_duration_days": 216.37164519641684,
+      "terminated_median_duration_days": 124.83106481481481,
+      "median_time_to_payment_days": 0.05589120370370371
+    },
+    "British": {
+      "count": 718,
+      "share_pct": 9.15,
+      "top_locations": {
+        "Main center Dubai": {
+          "count": 155,
+          "share_pct": 21.59
+        },
+        "Yas Mall": {
+          "count": 72,
+          "share_pct": 10.03
+        },
+        "Festival Plaza": {
+          "count": 60,
+          "share_pct": 8.36
+        },
+        "Mudon": {
+          "count": 46,
+          "share_pct": 6.41
+        },
+        "Circle Mall": {
+          "count": 42,
+          "share_pct": 5.85
+        }
+      },
+      "termination_rate": 0.3914,
+      "terminated_mean_duration_days": 188.9521002207724,
+      "terminated_median_duration_days": 108.27423611111111,
+      "median_time_to_payment_days": 0.04398148148148148
+    },
+    "Filipina": {
+      "count": 633,
+      "share_pct": 8.07,
+      "top_locations": {
+        "Festival City": {
+          "count": 129,
+          "share_pct": 20.38
+        },
+        "Main center Dubai": {
+          "count": 92,
+          "share_pct": 14.53
+        },
+        "Reem Mall": {
+          "count": 78,
+          "share_pct": 12.32
+        },
+        "Festival Plaza": {
+          "count": 75,
+          "share_pct": 11.85
+        },
+        "Marina Mall": {
+          "count": 56,
+          "share_pct": 8.85
+        }
+      },
+      "termination_rate": 0.2227,
+      "terminated_mean_duration_days": 238.5612403138955,
+      "terminated_median_duration_days": 110.46989583333334,
+      "median_time_to_payment_days": 0.04678240740740741
+    },
+    "Lebanese": {
+      "count": 437,
+      "share_pct": 5.57,
+      "top_locations": {
+        "Main center Dubai": {
+          "count": 131,
+          "share_pct": 29.98
+        },
+        "Circle Mall": {
+          "count": 40,
+          "share_pct": 9.15
+        },
+        "Festival Plaza": {
+          "count": 29,
+          "share_pct": 6.64
+        },
+        "City Centre Me'aisem": {
+          "count": 28,
+          "share_pct": 6.41
+        },
+        "Mall of Emirates": {
+          "count": 24,
+          "share_pct": 5.49
+        }
+      },
+      "termination_rate": 0.5355,
+      "terminated_mean_duration_days": 178.99293452239633,
+      "terminated_median_duration_days": 104.68685763888888,
+      "median_time_to_payment_days": 0.03888888888888889
+    },
+    "Egyptian": {
+      "count": 301,
+      "share_pct": 3.84,
+      "top_locations": {
+        "Main center Dubai": {
+          "count": 115,
+          "share_pct": 38.21
+        },
+        "Mudon": {
+          "count": 23,
+          "share_pct": 7.64
+        },
+        "Festival Plaza": {
+          "count": 17,
+          "share_pct": 5.65
+        },
+        "Circle Mall": {
+          "count": 17,
+          "share_pct": 5.65
+        },
+        "First Avenue": {
+          "count": 16,
+          "share_pct": 5.32
+        }
+      },
+      "termination_rate": 0.5349,
+      "terminated_mean_duration_days": 146.7991133971705,
+      "terminated_median_duration_days": 64.19842592592593,
+      "median_time_to_payment_days": 0.02462962962962963
+    },
+    "French": {
+      "count": 275,
+      "share_pct": 3.51,
+      "top_locations": {
+        "Main center Dubai": {
+          "count": 78,
+          "share_pct": 28.36
+        },
+        "Mercato": {
+          "count": 24,
+          "share_pct": 8.73
+        },
+        "Festival City": {
+          "count": 21,
+          "share_pct": 7.64
+        },
+        "Yas Mall": {
+          "count": 21,
+          "share_pct": 7.64
+        },
+        "Mall of Emirates": {
+          "count": 18,
+          "share_pct": 6.55
+        }
+      },
+      "termination_rate": 0.4836,
+      "terminated_mean_duration_days": 187.2483329852409,
+      "terminated_median_duration_days": 117.31010416666666,
+      "median_time_to_payment_days": 0.04248842592592592
+    },
+    "Jordanian": {
+      "count": 263,
+      "share_pct": 3.35,
+      "top_locations": {
+        "Main center Dubai": {
+          "count": 101,
+          "share_pct": 38.4
+        },
+        "Mudon": {
+          "count": 20,
+          "share_pct": 7.6
+        },
+        "Festival Plaza": {
+          "count": 18,
+          "share_pct": 6.84
+        },
+        "Reem Mall": {
+          "count": 17,
+          "share_pct": 6.46
+        },
+        "Yas Mall": {
+          "count": 16,
+          "share_pct": 6.08
+        }
+      },
+      "termination_rate": 0.5703,
+      "terminated_mean_duration_days": 173.89832168209875,
+      "terminated_median_duration_days": 76.2221875,
+      "median_time_to_payment_days": 0.029091435185185185
+    },
+    "Canadian": {
+      "count": 221,
+      "share_pct": 2.82,
+      "top_locations": {
+        "Main center Dubai": {
+          "count": 69,
+          "share_pct": 31.22
+        },
+        "Yas Mall": {
+          "count": 20,
+          "share_pct": 9.05
+        },
+        "Meadows souk shop": {
+          "count": 12,
+          "share_pct": 5.43
+        },
+        "Festival City": {
+          "count": 12,
+          "share_pct": 5.43
+        },
+        "Mudon": {
+          "count": 12,
+          "share_pct": 5.43
+        }
+      },
+      "termination_rate": 0.3846,
+      "terminated_mean_duration_days": 163.0907727396514,
+      "terminated_median_duration_days": 87.05828703703703,
+      "median_time_to_payment_days": 0.04030092592592593
+    },
+    "Pakistani": {
+      "count": 178,
+      "share_pct": 2.27,
+      "top_locations": {
+        "Main center Dubai": {
+          "count": 49,
+          "share_pct": 27.53
+        },
+        "Festival Plaza": {
+          "count": 18,
+          "share_pct": 10.11
+        },
+        "Mall of Emirates": {
+          "count": 11,
+          "share_pct": 6.18
+        },
+        "Festival City": {
+          "count": 10,
+          "share_pct": 5.62
+        },
+        "Circle Mall": {
+          "count": 9,
+          "share_pct": 5.06
+        }
+      },
+      "termination_rate": 0.4831,
+      "terminated_mean_duration_days": 136.12119791666672,
+      "terminated_median_duration_days": 66.53367476851852,
+      "median_time_to_payment_days": 0.05513888888888889
+    }
+  },
+  "location_diversity": {
+    "Bay Avenue": {
+      "unique_nationalities": 46,
+      "shannon_index": 2.7088462905602664,
+      "top_nationality_share": 0.2717
+    },
+    "Brands For Less": {
+      "unique_nationalities": 13,
+      "shannon_index": 2.416616403940684,
+      "top_nationality_share": 0.2083
+    },
+    "Circle Mall": {
+      "unique_nationalities": 53,
+      "shannon_index": 3.1436225591443847,
+      "top_nationality_share": 0.1706
+    },
+    "City Centre Me'aisem": {
+      "unique_nationalities": 43,
+      "shannon_index": 2.9522626301571058,
+      "top_nationality_share": 0.1626
+    },
+    "Dubai Hills": {
+      "unique_nationalities": 6,
+      "shannon_index": 1.6417347121875212,
+      "top_nationality_share": 0.3636
+    },
+    "Festival City": {
+      "unique_nationalities": 66,
+      "shannon_index": 3.0329644226183605,
+      "top_nationality_share": 0.2275
+    },
+    "Festival Plaza": {
+      "unique_nationalities": 72,
+      "shannon_index": 3.0510033327587007,
+      "top_nationality_share": 0.2035
+    },
+    "First Avenue": {
+      "unique_nationalities": 46,
+      "shannon_index": 3.193660314933103,
+      "top_nationality_share": 0.1447
+    },
+    "Golden Miles": {
+      "unique_nationalities": 37,
+      "shannon_index": 2.906235377345418,
+      "top_nationality_share": 0.2416
+    },
+    "Main center Dubai": {
+      "unique_nationalities": 98,
+      "shannon_index": 3.408409896077217,
+      "top_nationality_share": 0.143
+    },
+    "Mall of Emirates": {
+      "unique_nationalities": 62,
+      "shannon_index": 3.1392270749937037,
+      "top_nationality_share": 0.2344
+    },
+    "Marina Mall": {
+      "unique_nationalities": 41,
+      "shannon_index": 2.8462101875288752,
+      "top_nationality_share": 0.2113
+    },
+    "Meadows souk shop": {
+      "unique_nationalities": 48,
+      "shannon_index": 3.1604369814068995,
+      "top_nationality_share": 0.175
+    },
+    "Mercato": {
+      "unique_nationalities": 52,
+      "shannon_index": 3.1512432005848967,
+      "top_nationality_share": 0.202
+    },
+    "Mirdif City Center": {
+      "unique_nationalities": 33,
+      "shannon_index": 2.691657255760185,
+      "top_nationality_share": 0.2117
+    },
+    "Mudon": {
+      "unique_nationalities": 55,
+      "shannon_index": 3.20320845682498,
+      "top_nationality_share": 0.1633
+    },
+    "Nakheel Mall": {
+      "unique_nationalities": 33,
+      "shannon_index": 3.0699095343256104,
+      "top_nationality_share": 0.1471
+    },
+    "Oasis Mall": {
+      "unique_nationalities": 48,
+      "shannon_index": 2.9004977910361185,
+      "top_nationality_share": 0.2244
+    },
+    "Off-Site Sales": {
+      "unique_nationalities": 11,
+      "shannon_index": 2.1752188474477783,
+      "top_nationality_share": 0.2069
+    },
+    "Pavilion": {
+      "unique_nationalities": 31,
+      "shannon_index": 2.782248889524012,
+      "top_nationality_share": 0.2243
+    },
+    "Reem Mall": {
+      "unique_nationalities": 56,
+      "shannon_index": 2.9967421341506983,
+      "top_nationality_share": 0.2229
+    },
+    "Sahara Center": {
+      "unique_nationalities": 9,
+      "shannon_index": 1.8258225215555781,
+      "top_nationality_share": 0.2963
+    },
+    "Shams Boutik": {
+      "unique_nationalities": 14,
+      "shannon_index": 2.4990649028542835,
+      "top_nationality_share": 0.1667
+    },
+    "Sharjah City Center": {
+      "unique_nationalities": 8,
+      "shannon_index": 1.831740878004061,
+      "top_nationality_share": 0.3043
+    },
+    "The Market": {
+      "unique_nationalities": 23,
+      "shannon_index": 2.759911906110524,
+      "top_nationality_share": 0.1525
+    },
+    "Time Square Center": {
+      "unique_nationalities": 10,
+      "shannon_index": 2.099292799933921,
+      "top_nationality_share": 0.2353
+    },
+    "World Trade Center 3": {
+      "unique_nationalities": 5,
+      "shannon_index": 1.4708084763221114,
+      "top_nationality_share": 0.4
+    },
+    "Yalayis": {
+      "unique_nationalities": 8,
+      "shannon_index": 2.0431918705451206,
+      "top_nationality_share": 0.2222
+    },
+    "Yas Mall": {
+      "unique_nationalities": 62,
+      "shannon_index": 3.2194188305838303,
+      "top_nationality_share": 0.1681
+    },
+    "Yas Mall 2": {
+      "unique_nationalities": 5,
+      "shannon_index": 1.4941751382893083,
+      "top_nationality_share": 0.375
+    },
+    "Zahraa": {
+      "unique_nationalities": 21,
+      "shannon_index": 2.81327001235626,
+      "top_nationality_share": 0.1739
+    }
+  }
+}

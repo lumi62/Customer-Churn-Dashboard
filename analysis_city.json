@@ -1,0 +1,483 @@
+{
+  "city_counts": {
+    "Dubai": 6240,
+    "Abu Dhabi": 1115,
+    "Unknown": 243,
+    "Sharjah": 171,
+    "Ajman": 27,
+    "2": 21,
+    "Ras al-Khaimah": 13,
+    "4": 6,
+    "6": 3,
+    "Fujairah": 3,
+    "55": 1,
+    "50": 1,
+    "Umm al-Quwain": 1
+  },
+  "top_city_metrics": {
+    "Dubai": {
+      "total_contracts": 6240,
+      "termination_rate": 0.4819,
+      "avg_duration_days_terminated": 163.56900057658675,
+      "median_time_to_payment_days": 0.030787037037037036,
+      "top_kiosks": {
+        "Main center Dubai": {
+          "count": 1906,
+          "share_pct": 30.54
+        },
+        "Festival Plaza": {
+          "count": 622,
+          "share_pct": 9.97
+        },
+        "Festival City": {
+          "count": 487,
+          "share_pct": 7.8
+        },
+        "Mall of Emirates": {
+          "count": 355,
+          "share_pct": 5.69
+        },
+        "Mudon": {
+          "count": 334,
+          "share_pct": 5.35
+        }
+      },
+      "top_nationalities": {
+        "Indian": {
+          "count": 790,
+          "share_pct": 12.66
+        },
+        "British": {
+          "count": 590,
+          "share_pct": 9.46
+        },
+        "Filipina": {
+          "count": 398,
+          "share_pct": 6.38
+        },
+        "Lebanese": {
+          "count": 386,
+          "share_pct": 6.19
+        },
+        "Egyptian": {
+          "count": 256,
+          "share_pct": 4.1
+        }
+      }
+    },
+    "Abu Dhabi": {
+      "total_contracts": 1115,
+      "termination_rate": 0.4027,
+      "avg_duration_days_terminated": 127.45398606986721,
+      "median_time_to_payment_days": 0.06129629629629629,
+      "top_kiosks": {
+        "Yas Mall": {
+          "count": 429,
+          "share_pct": 38.48
+        },
+        "Reem Mall": {
+          "count": 315,
+          "share_pct": 28.25
+        },
+        "Marina Mall": {
+          "count": 239,
+          "share_pct": 21.43
+        },
+        "Festival Plaza": {
+          "count": 24,
+          "share_pct": 2.15
+        },
+        "Shams Boutik": {
+          "count": 24,
+          "share_pct": 2.15
+        }
+      },
+      "top_nationalities": {
+        "Filipina": {
+          "count": 176,
+          "share_pct": 15.78
+        },
+        "British": {
+          "count": 110,
+          "share_pct": 9.87
+        },
+        "Indian": {
+          "count": 98,
+          "share_pct": 8.79
+        },
+        "Emirati": {
+          "count": 46,
+          "share_pct": 4.13
+        },
+        "French": {
+          "count": 42,
+          "share_pct": 3.77
+        }
+      }
+    },
+    "Unknown": {
+      "total_contracts": 243,
+      "termination_rate": 0.7984,
+      "avg_duration_days_terminated": 21.85195935948835,
+      "median_time_to_payment_days": 0.029953703703703705,
+      "top_kiosks": {
+        "Main center Dubai": {
+          "count": 52,
+          "share_pct": 21.4
+        },
+        "Festival City": {
+          "count": 23,
+          "share_pct": 9.47
+        },
+        "Festival Plaza": {
+          "count": 20,
+          "share_pct": 8.23
+        },
+        "Bay Avenue": {
+          "count": 19,
+          "share_pct": 7.82
+        },
+        "Mall of Emirates": {
+          "count": 16,
+          "share_pct": 6.58
+        }
+      },
+      "top_nationalities": {
+        "Indian": {
+          "count": 18,
+          "share_pct": 7.41
+        },
+        "Filipina": {
+          "count": 15,
+          "share_pct": 6.17
+        },
+        "Egyptian": {
+          "count": 7,
+          "share_pct": 2.88
+        },
+        "British": {
+          "count": 5,
+          "share_pct": 2.06
+        },
+        "French": {
+          "count": 5,
+          "share_pct": 2.06
+        }
+      }
+    },
+    "Sharjah": {
+      "total_contracts": 171,
+      "termination_rate": 0.5556,
+      "avg_duration_days_terminated": 163.76288547758284,
+      "median_time_to_payment_days": 0.02921875,
+      "top_kiosks": {
+        "Main center Dubai": {
+          "count": 47,
+          "share_pct": 27.49
+        },
+        "Festival City": {
+          "count": 42,
+          "share_pct": 24.56
+        },
+        "Sharjah City Center": {
+          "count": 17,
+          "share_pct": 9.94
+        },
+        "Sahara Center": {
+          "count": 14,
+          "share_pct": 8.19
+        },
+        "Mirdif City Center": {
+          "count": 11,
+          "share_pct": 6.43
+        }
+      },
+      "top_nationalities": {
+        "Filipina": {
+          "count": 33,
+          "share_pct": 19.3
+        },
+        "Indian": {
+          "count": 27,
+          "share_pct": 15.79
+        },
+        "Syrian": {
+          "count": 10,
+          "share_pct": 5.85
+        },
+        "Egyptian": {
+          "count": 7,
+          "share_pct": 4.09
+        },
+        "South African": {
+          "count": 7,
+          "share_pct": 4.09
+        }
+      }
+    },
+    "Ajman": {
+      "total_contracts": 27,
+      "termination_rate": 0.4815,
+      "avg_duration_days_terminated": 125.07179576210827,
+      "median_time_to_payment_days": 0.04142361111111111,
+      "top_kiosks": {
+        "Festival City": {
+          "count": 6,
+          "share_pct": 22.22
+        },
+        "Main center Dubai": {
+          "count": 6,
+          "share_pct": 22.22
+        },
+        "Festival Plaza": {
+          "count": 3,
+          "share_pct": 11.11
+        },
+        "Oasis Mall": {
+          "count": 2,
+          "share_pct": 7.41
+        },
+        "Mirdif City Center": {
+          "count": 2,
+          "share_pct": 7.41
+        }
+      },
+      "top_nationalities": {
+        "Filipina": {
+          "count": 8,
+          "share_pct": 29.63
+        },
+        "Indian": {
+          "count": 4,
+          "share_pct": 14.81
+        },
+        "Pakistani": {
+          "count": 3,
+          "share_pct": 11.11
+        },
+        "American": {
+          "count": 2,
+          "share_pct": 7.41
+        },
+        "Emirati": {
+          "count": 2,
+          "share_pct": 7.41
+        }
+      }
+    },
+    "2": {
+      "total_contracts": 21,
+      "termination_rate": 0.1905,
+      "avg_duration_days_terminated": 281.22527777777776,
+      "median_time_to_payment_days": 0.06972222222222223,
+      "top_kiosks": {
+        "Main center Dubai": {
+          "count": 5,
+          "share_pct": 23.81
+        },
+        "Bay Avenue": {
+          "count": 3,
+          "share_pct": 14.29
+        },
+        "Festival Plaza": {
+          "count": 2,
+          "share_pct": 9.52
+        },
+        "City Centre Me'aisem": {
+          "count": 2,
+          "share_pct": 9.52
+        },
+        "Festival City": {
+          "count": 2,
+          "share_pct": 9.52
+        }
+      },
+      "top_nationalities": {
+        "German": {
+          "count": 3,
+          "share_pct": 14.29
+        },
+        "British": {
+          "count": 3,
+          "share_pct": 14.29
+        },
+        "Egyptian": {
+          "count": 2,
+          "share_pct": 9.52
+        },
+        "Indian": {
+          "count": 2,
+          "share_pct": 9.52
+        },
+        "Singaporean": {
+          "count": 2,
+          "share_pct": 9.52
+        }
+      }
+    },
+    "Ras al-Khaimah": {
+      "total_contracts": 13,
+      "termination_rate": 0.6154,
+      "avg_duration_days_terminated": 178.14433883101853,
+      "median_time_to_payment_days": 0.020335648148148148,
+      "top_kiosks": {
+        "Festival City": {
+          "count": 3,
+          "share_pct": 23.08
+        },
+        "Mirdif City Center": {
+          "count": 2,
+          "share_pct": 15.38
+        },
+        "Yas Mall": {
+          "count": 2,
+          "share_pct": 15.38
+        },
+        "First Avenue": {
+          "count": 1,
+          "share_pct": 7.69
+        },
+        "Mercato": {
+          "count": 1,
+          "share_pct": 7.69
+        }
+      },
+      "top_nationalities": {
+        "British": {
+          "count": 3,
+          "share_pct": 23.08
+        },
+        "Canadian": {
+          "count": 2,
+          "share_pct": 15.38
+        },
+        "Indian": {
+          "count": 2,
+          "share_pct": 15.38
+        },
+        "Australian": {
+          "count": 1,
+          "share_pct": 7.69
+        },
+        "South African": {
+          "count": 1,
+          "share_pct": 7.69
+        }
+      }
+    },
+    "4": {
+      "total_contracts": 6,
+      "termination_rate": 0.0,
+      "avg_duration_days_terminated": null,
+      "median_time_to_payment_days": 0.012326388888888888,
+      "top_kiosks": {
+        "Main center Dubai": {
+          "count": 2,
+          "share_pct": 33.33
+        },
+        "Oasis Mall": {
+          "count": 1,
+          "share_pct": 16.67
+        },
+        "First Avenue": {
+          "count": 1,
+          "share_pct": 16.67
+        },
+        "Mirdif City Center": {
+          "count": 1,
+          "share_pct": 16.67
+        },
+        "Golden Miles": {
+          "count": 1,
+          "share_pct": 16.67
+        }
+      },
+      "top_nationalities": {
+        "Ukrainian": {
+          "count": 2,
+          "share_pct": 33.33
+        },
+        "British": {
+          "count": 1,
+          "share_pct": 16.67
+        },
+        "Ethiopian": {
+          "count": 1,
+          "share_pct": 16.67
+        },
+        "Filipina": {
+          "count": 1,
+          "share_pct": 16.67
+        },
+        "Jordanian": {
+          "count": 1,
+          "share_pct": 16.67
+        }
+      }
+    },
+    "6": {
+      "total_contracts": 3,
+      "termination_rate": 0.0,
+      "avg_duration_days_terminated": null,
+      "median_time_to_payment_days": 0.02935185185185185,
+      "top_kiosks": {
+        "Meadows souk shop": {
+          "count": 2,
+          "share_pct": 66.67
+        },
+        "Festival Plaza": {
+          "count": 1,
+          "share_pct": 33.33
+        }
+      },
+      "top_nationalities": {
+        "Jordanian": {
+          "count": 1,
+          "share_pct": 33.33
+        },
+        "German": {
+          "count": 1,
+          "share_pct": 33.33
+        },
+        "Syrian": {
+          "count": 1,
+          "share_pct": 33.33
+        }
+      }
+    },
+    "Fujairah": {
+      "total_contracts": 3,
+      "termination_rate": 0.3333,
+      "avg_duration_days_terminated": 155.57822916666666,
+      "median_time_to_payment_days": 0.15888888888888889,
+      "top_kiosks": {
+        "Festival Plaza": {
+          "count": 1,
+          "share_pct": 33.33
+        },
+        "Circle Mall": {
+          "count": 1,
+          "share_pct": 33.33
+        },
+        "Main center Dubai": {
+          "count": 1,
+          "share_pct": 33.33
+        }
+      },
+      "top_nationalities": {
+        "Filipina": {
+          "count": 1,
+          "share_pct": 33.33
+        },
+        "British": {
+          "count": 1,
+          "share_pct": 33.33
+        },
+        "Indian": {
+          "count": 1,
+          "share_pct": 33.33
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,671 @@
+function setupTable({ tableId, data, columns, searchInputId, maxRows }) {
+            const table = document.getElementById(tableId);
+            const thead = table.querySelector('thead');
+            const tbody = table.querySelector('tbody');
+            const searchInput = searchInputId ? document.getElementById(searchInputId) : null;
+            const container = table.parentElement;
+
+            let currentData = [...data];
+            let sortConfig = { key: null, direction: 'asc' };
+            let displayLimit = maxRows || null;
+            let toggleBtn = null;
+
+            function renderHeader() {
+                const headerRow = document.createElement('tr');
+                columns.forEach(col => {
+                    const th = document.createElement('th');
+                    th.textContent = col.label;
+                    th.style.cursor = col.sortable === false ? 'default' : 'pointer';
+                    if (col.tooltip) {
+                        th.title = col.tooltip;
+                    }
+                    if (col.sortable !== false) {
+                        th.addEventListener('click', () => {
+                            if (sortConfig.key === col.key) {
+                                sortConfig.direction = sortConfig.direction === 'asc' ? 'desc' : 'asc';
+                            } else {
+                                sortConfig = { key: col.key, direction: 'asc' };
+                            }
+                            sortData();
+                            renderBody();
+                        });
+                    }
+                    headerRow.appendChild(th);
+                });
+                thead.innerHTML = '';
+                thead.appendChild(headerRow);
+            }
+
+            function renderBody() {
+                tbody.innerHTML = '';
+                const rows = displayLimit ? currentData.slice(0, displayLimit) : currentData;
+                rows.forEach(row => {
+                    const tr = document.createElement('tr');
+                    columns.forEach(col => {
+                        const td = document.createElement('td');
+                        const value = row[col.key];
+                        td.innerHTML = col.format ? col.format(value, row) : value;
+                        tr.appendChild(td);
+                    });
+                    tbody.appendChild(tr);
+                });
+                });
+                updateToggle();
+            }
+
+            function updateToggle() {
+                if (!toggleBtn) return;
+                const shouldShow = maxRows && currentData.length > maxRows;
+                toggleBtn.style.display = shouldShow ? 'inline-flex' : 'none';
+                toggleBtn.textContent = displayLimit ? 'See more' : 'See less';
+            }
+
+            if (maxRows && container) {
+                toggleBtn = document.createElement('button');
+                toggleBtn.type = 'button';
+                toggleBtn.className = 'table-toggle';
+                toggleBtn.textContent = 'See more';
+                toggleBtn.addEventListener('click', () => {
+                    displayLimit = displayLimit ? null : maxRows;
+                    renderBody();
+                });
+                container.appendChild(toggleBtn);
+            }
+
+            function sortData() {
+                if (!sortConfig.key) return;
+                const { key, direction } = sortConfig;
+                currentData.sort((a, b) => {
+                    const valA = a[key];
+                    const valB = b[key];
+                    if (valA === null || valA === undefined) return 1;
+                    if (valB === null || valB === undefined) return -1;
+                    if (typeof valA === 'number' && typeof valB === 'number') {
+                        return direction === 'asc' ? valA - valB : valB - valA;
+                    }
+                    return direction === 'asc'
+                        ? String(valA).localeCompare(String(valB))
+                        : String(valB).localeCompare(String(valA));
+                });
+            }
+
+            function filterData(term) {
+                const lower = term.trim().toLowerCase();
+                if (!lower) {
+                    currentData = [...data];
+                } else {
+                    currentData = data.filter(row => {
+                        return columns.some(col => {
+                            const cell = row[col.key];
+                            return cell !== null && cell !== undefined && String(cell).toLowerCase().includes(lower);
+                        });
+                    });
+                }
+                sortData();
+                renderBody();
+            }
+
+            renderHeader();
+            sortData();
+            renderBody();
+
+            if (searchInput) {
+                searchInput.addEventListener('input', (event) => {
+                    filterData(event.target.value);
+                });
+            }
+        }
+
+        function colorForRate(rate) {
+            if (rate === null || rate === undefined) return '#CBD5E1';
+            const clamp = Math.max(0, Math.min(rate, 1));
+            const start = [45, 147, 108];   // fresh green
+            const mid = [244, 211, 94];     // warm amber
+            const end = [209, 73, 91];      // rich red
+            let from, to, t;
+            if (clamp <= 0.5) {
+                from = start;
+                to = mid;
+                t = clamp / 0.5;
+            } else {
+                from = mid;
+                to = end;
+                t = (clamp - 0.5) / 0.5;
+            }
+            const r = Math.round(from[0] + (to[0] - from[0]) * t);
+            const g = Math.round(from[1] + (to[1] - from[1]) * t);
+            const b = Math.round(from[2] + (to[2] - from[2]) * t);
+            return `rgb(${r}, ${g}, ${b})`;
+        }
+
+        function renderKpis() {
+            const grid = document.getElementById('kpiGrid');
+            const kpisData = currentDataset.overallKpis || {};
+            const kpis = [
+                { label: 'Total Contracts', value: formatNumber(kpisData.total_contracts) },
+                { label: 'Unique Clients', value: formatNumber(kpisData.unique_clients) },
+                { label: 'Active Contracts', value: formatNumber(kpisData.active_contracts) },
+                { label: 'Terminated Contracts', value: formatNumber(kpisData.terminated_contracts) },
+                { label: 'Termination Rate', value: formatPercent(kpisData.termination_rate, 1) },
+                {
+                    label: 'Contract Type',
+                    value: currentContractType || '—'
+                },
+            ];
+            grid.innerHTML = '';
+            kpis.forEach(kpi => {
+                const card = document.createElement('div');
+                card.className = 'kpi-card';
+                card.innerHTML = `<h3>${kpi.label}</h3><p>${kpi.value}</p>`;
+                grid.appendChild(card);
+            });
+        }
+
+        function renderNationalityCharts() {
+            const stats = currentDataset.nationalityStats || [];
+            const data = stats.slice(0, 20);
+            const rates = stats.map(d => d.termination_rate || 0);
+            const maxRate = rates.length ? Math.max(...rates) : 0;
+            Plotly.newPlot('nationalityBarChart', [
+                {
+                    type: 'bar',
+                    x: data.map(d => d.nationality),
+                    y: data.map(d => d.contracts_count),
+                    marker: {
+                        color: data.map(d => colorForRate(maxRate ? (d.termination_rate || 0) / maxRate : 0)),
+                    },
+                    hovertemplate: '<b>%{x}</b><br>Contracts: %{y:,}<br>Termination: %{customdata[0]:.1%}<br>Avg duration: %{customdata[1]} days<br>Median duration: %{customdata[2]} days<extra></extra>',
+                    customdata: data.map(d => [
+                        d.termination_rate || 0,
+                        d.avg_duration_days !== null && d.avg_duration_days !== undefined ? formatNumber(d.avg_duration_days) : '—',
+                        d.median_duration_days !== null && d.median_duration_days !== undefined ? formatNumber(d.median_duration_days) : '—',
+                    ]),
+                }
+            ], {
+                margin: { t: 30, r: 20, b: 120, l: 60 },
+                yaxis: { title: 'Contracts' },
+                xaxis: { automargin: true },
+                showlegend: false,
+            }, { responsive: true });
+        }
+
+        function renderKioskChart() {
+            const stats = currentDataset.kioskStats || [];
+            const data = stats.slice(0, 15);
+            const rates = stats.map(d => d.termination_rate || 0);
+            const maxRate = rates.length ? Math.max(...rates) : 0;
+            Plotly.newPlot('kioskBarChart', [
+                {
+                    type: 'bar',
+                    x: data.map(d => d.kiosk),
+                    y: data.map(d => d.contracts_count),
+                    marker: {
+                        color: data.map(d => colorForRate(maxRate ? (d.termination_rate || 0) / maxRate : 0)),
+                    },
+                    hovertemplate: '<b>%{x}</b><br>Contracts: %{y:,}<br>Termination: %{customdata[0]:.1%}<br>Avg duration: %{customdata[1]} days<br>Median duration: %{customdata[2]} days<extra></extra>',
+                    customdata: data.map(d => [
+                        d.termination_rate || 0,
+                        d.avg_duration_days !== null && d.avg_duration_days !== undefined ? formatNumber(d.avg_duration_days) : '—',
+                        d.median_duration_days !== null && d.median_duration_days !== undefined ? formatNumber(d.median_duration_days) : '—',
+                    ]),
+                }
+            ], {
+                margin: { t: 30, r: 20, b: 140, l: 60 },
+                yaxis: { title: 'Contracts' },
+                xaxis: { automargin: true },
+                showlegend: false,
+            }, { responsive: true });
+        }
+
+        function renderHeatmap(mode) {
+            const effectiveMode = mode || currentHeatmapMode || 'rate';
+            currentHeatmapMode = effectiveMode;
+            const heatmapData = currentDataset.heatmapData || { kiosks: [], nationalities: [], terminationRateMatrix: [], contractsMatrix: [], tooltipMatrix: [] };
+            const z = effectiveMode === 'rate' ? heatmapData.terminationRateMatrix : heatmapData.contractsMatrix;
+            const rateColorscale = [
+                [0, '#2d936c'],
+                [0.5, '#f4d35e'],
+                [1, '#d1495b']
+            ];
+            const volumeColorscale = [
+                [0, '#edf2fb'],
+                [0.5, '#80a1d4'],
+                [1, '#1d3557']
+            ];
+            const colorscale = effectiveMode === 'rate' ? rateColorscale : volumeColorscale;
+            const colorbar = {
+                title: effectiveMode === 'rate' ? 'Termination Rate' : 'Contracts',
+            };
+            if (effectiveMode === 'rate') {
+                colorbar.tickformat = '.0%';
+            }
+            Plotly.newPlot('heatmap', [
+                {
+                    type: 'heatmap',
+                    x: heatmapData.nationalities,
+                    y: heatmapData.kiosks,
+                    z: z,
+                    text: heatmapData.tooltipMatrix,
+                    hovertemplate: '%{text}<extra></extra>',
+                    colorscale: colorscale,
+                    colorbar: colorbar,
+                    zsmooth: false,
+                }
+            ], {
+                margin: { t: 20, r: 20, b: 140, l: 140 },
+                xaxis: { tickangle: -45 },
+                yaxis: { automargin: true },
+            }, { responsive: true });
+
+            const rateBtn = document.getElementById('heatmapRateBtn');
+            const volBtn = document.getElementById('heatmapVolumeBtn');
+            if (rateBtn && volBtn) {
+                rateBtn.classList.toggle('active', effectiveMode === 'rate');
+                volBtn.classList.toggle('active', effectiveMode === 'volume');
+            }
+        }
+
+        function setupHeatmapControls() {
+            const rateBtn = document.getElementById('heatmapRateBtn');
+            const volBtn = document.getElementById('heatmapVolumeBtn');
+            if (rateBtn) {
+                rateBtn.addEventListener('click', () => {
+                    renderHeatmap('rate');
+                });
+            }
+            if (volBtn) {
+                volBtn.addEventListener('click', () => {
+                    renderHeatmap('volume');
+                });
+            }
+        }
+
+        function renderNationalityDrilldown() {
+            const input = document.getElementById('nationalityCombo');
+            const listElement = document.getElementById('nationalityComboList');
+            const drilldown = currentDataset.nationalityDrilldown || {};
+            const options = Object.keys(drilldown).sort();
+
+            if (!input || !listElement) {
+                return;
+            }
+
+            if (input._dropdownDestroy) {
+                input._dropdownDestroy();
+                input._dropdownDestroy = null;
+            }
+
+            function renderEmptyCharts() {
+                Plotly.newPlot('nationalityDrilldownCounts', [], {
+                    title: 'Contracts by Kiosk',
+                    margin: { t: 60, r: 20, b: 80, l: 60 },
+                    annotations: [
+                        {
+                            text: 'No data available for this contract type',
+                            x: 0.5,
+                            y: 0.5,
+                            showarrow: false,
+                            xref: 'paper',
+                            yref: 'paper',
+                            font: { color: '#52606d', size: 14 }
+                        }
+                    ],
+                }, { responsive: true });
+                Plotly.newPlot('nationalityDrilldownRates', [], {
+                    title: 'Termination Rate by Kiosk',
+                    margin: { t: 60, r: 20, b: 80, l: 60 },
+                    annotations: [
+                        {
+                            text: 'No data available for this contract type',
+                            x: 0.5,
+                            y: 0.5,
+                            showarrow: false,
+                            xref: 'paper',
+                            yref: 'paper',
+                            font: { color: '#52606d', size: 14 }
+                        }
+                    ],
+                }, { responsive: true });
+            }
+
+            if (!options.length) {
+                input.value = '';
+                input.disabled = true;
+                input.placeholder = 'No nationalities available';
+                listElement.classList.remove('open');
+                listElement.innerHTML = '';
+                renderEmptyCharts();
+                return;
+            }
+
+            input.disabled = false;
+            input.placeholder = 'Search or pick nationality...';
+            listElement.classList.remove('open');
+            listElement.innerHTML = '';
+            let currentValue = null;
+
+            function renderCharts(value) {
+                if (!value || !drilldown[value]) {
+                    renderEmptyCharts();
+                    return;
+                }
+                const rows = drilldown[value] || [];
+                const topRows = rows.slice(0, 15);
+
+                Plotly.newPlot('nationalityDrilldownCounts', [
+                    {
+                        type: 'bar',
+                        x: topRows.map(d => d.kiosk),
+                        y: topRows.map(d => d.contracts_count),
+                        marker: { color: '#2a6f97' },
+                        hovertemplate: '<b>%{x}</b><br>Contracts: %{y:,}<extra></extra>',
+                    }
+                ], {
+                    title: `Contracts by Kiosk — ${value}`,
+                    margin: { t: 60, r: 20, b: 160, l: 60 },
+                    xaxis: { automargin: true },
+                    showlegend: false,
+                }, { responsive: true });
+
+                Plotly.newPlot('nationalityDrilldownRates', [
+                    {
+                        type: 'bar',
+                        x: topRows.map(d => d.kiosk),
+                        y: topRows.map(d => d.termination_rate),
+                        marker: { color: topRows.map(d => colorForRate(d.termination_rate || 0)) },
+                        customdata: topRows.map(d => [
+                            d.avg_duration_days !== null && d.avg_duration_days !== undefined ? formatNumber(d.avg_duration_days) : '—',
+                            d.median_duration_days !== null && d.median_duration_days !== undefined ? formatNumber(d.median_duration_days) : '—',
+                        ]),
+                        hovertemplate: '<b>%{x}</b><br>Termination: %{y:.1%}<br>Avg duration: %{customdata[0]} days<br>Median duration: %{customdata[1]} days<extra></extra>',
+                    }
+                ], {
+                    title: `Termination Rate by Kiosk — ${value}`,
+                    margin: { t: 60, r: 20, b: 160, l: 60 },
+                    xaxis: { automargin: true },
+                    yaxis: { tickformat: '.0%' },
+                    showlegend: false,
+                }, { responsive: true });
+            }
+
+            const dropdown = createSearchDropdown({
+                input,
+                listElement,
+                options,
+                onSelect: value => {
+                    currentValue = value;
+                    renderCharts(value);
+                },
+            });
+
+            input._dropdownDestroy = dropdown.destroy;
+
+            const initialNormalized = (input.value || '').trim().toLowerCase();
+            currentValue = options.find(opt => opt.toLowerCase() === initialNormalized) || options[0];
+
+            dropdown.setValue(currentValue, { silent: true });
+            renderCharts(currentValue);
+        }
+
+        function renderKioskDrilldown() {
+            const input = document.getElementById('kioskCombo');
+            const listElement = document.getElementById('kioskComboList');
+            const drilldown = currentDataset.kioskDrilldown || {};
+            const timeseriesConfig = currentDataset.kioskTopNationalityTimeseries || { months: [], series: {} };
+            const tsMonths = timeseriesConfig.months || [];
+            const linePalette = ['#2a6f97', '#d1495b', '#f4d35e', '#45a29e', '#6a4c93'];
+            const modeButtons = Array.from(document.querySelectorAll('[data-timeseries-mode]'));
+            const modeLabelMap = {
+                all: 'All Contracts',
+                Active: 'Active Contracts',
+                Terminated: 'Terminated Contracts',
+            };
+
+            if (!input || !listElement) {
+                return;
+            }
+
+            const options = Object.keys(drilldown).sort();
+            listElement.classList.remove('open');
+            listElement.innerHTML = '';
+
+            if (input._dropdownDestroy) {
+                input._dropdownDestroy();
+                input._dropdownDestroy = null;
+            }
+
+            function applyModeStyles() {
+                modeButtons.forEach(btn => {
+                    btn.classList.toggle('active', btn.dataset.timeseriesMode === currentTimeseriesMode);
+                });
+            }
+
+            let currentSelection = null;
+
+            modeButtons.forEach(btn => {
+                btn.onclick = () => {
+                    const nextMode = btn.dataset.timeseriesMode || 'all';
+                    currentTimeseriesMode = nextMode;
+                    applyModeStyles();
+                    renderTimeseries(currentSelection);
+                };
+            });
+            applyModeStyles();
+
+            function renderEmptyBar(chartId, title) {
+                Plotly.newPlot(chartId, [], {
+                    title,
+                    margin: { t: 60, r: 20, b: 80, l: 60 },
+                    annotations: [
+                        {
+                            text: 'No data available for this selection',
+                            x: 0.5,
+                            y: 0.5,
+                            showarrow: false,
+                            xref: 'paper',
+                            yref: 'paper',
+                            font: { color: '#52606d', size: 14 }
+                        }
+                    ],
+                }, { responsive: true });
+            }
+
+            function renderTimeseries(kioskValue) {
+                const chartId = 'kioskDrilldownTimeseries';
+                const months = tsMonths;
+                if (!kioskValue || !months.length) {
+                    Plotly.newPlot(chartId, [], {
+                        title: 'Monthly Contracts — No data available',
+                        margin: { t: 60, r: 20, b: 80, l: 60 },
+                        xaxis: { title: 'Month', tickangle: -45, automargin: true },
+                        yaxis: { title: 'Contracts' },
+                        annotations: [
+                            {
+                                text: 'No contract activity available for this selection',
+                                showarrow: false,
+                                xref: 'paper',
+                                yref: 'paper',
+                                x: 0.5,
+                                y: 0.5,
+                                font: { color: '#52606d', size: 14 }
+                            }
+                        ],
+                    }, { responsive: true });
+                    return;
+                }
+
+                const kioskSeries = timeseriesConfig.series && timeseriesConfig.series[kioskValue];
+                if (!kioskSeries || !kioskSeries.nationalities || !kioskSeries.nationalities.length) {
+                    Plotly.newPlot(chartId, [], {
+                        title: `Monthly Contracts — ${kioskValue}`,
+                        margin: { t: 60, r: 20, b: 80, l: 60 },
+                        xaxis: { title: 'Month', tickangle: -45, automargin: true },
+                        yaxis: { title: 'Contracts' },
+                        annotations: [
+                            {
+                                text: 'No contract activity available for this selection',
+                                showarrow: false,
+                                xref: 'paper',
+                                yref: 'paper',
+                                x: 0.5,
+                                y: 0.5,
+                                font: { color: '#52606d', size: 14 }
+                            }
+                        ],
+                    }, { responsive: true });
+                    return;
+                }
+
+                const nationalities = kioskSeries.nationalities;
+                const modeSeries = kioskSeries[currentTimeseriesMode] || {};
+                const traces = nationalities.map((nationality, idx) => {
+                    const counts = modeSeries[nationality] || months.map(() => 0);
+                    return {
+                        type: 'scatter',
+                        mode: 'lines+markers',
+                        name: nationality,
+                        x: months,
+                        y: counts,
+                        line: { color: linePalette[idx % linePalette.length], width: 3 },
+                        marker: { size: 6 },
+                        hovertemplate: `<b>${nationality}</b><br>Month: %{x}<br>Contracts: %{y:,}<extra></extra>`,
+                    };
+                });
+
+                const hasData = traces.some(trace => (trace.y || []).some(value => value > 0));
+                const layout = {
+                    title: `Monthly Contracts — ${kioskValue} (${modeLabelMap[currentTimeseriesMode] || 'All Contracts'})`,
+                    margin: { t: 60, r: 20, b: 80, l: 60 },
+                    xaxis: { title: 'Month', tickangle: -45, automargin: true },
+                    yaxis: { title: 'Contracts' },
+                    legend: { orientation: 'h', y: -0.25 },
+                };
+
+                if (!hasData) {
+                    layout.annotations = [
+                        {
+                            text: 'No contract activity for the selected filters',
+                            showarrow: false,
+                            xref: 'paper',
+                            yref: 'paper',
+                            x: 0.5,
+                            y: 0.5,
+                            font: { color: '#52606d', size: 14 }
+                        }
+                    ];
+                }
+
+                Plotly.newPlot(chartId, traces, layout, { responsive: true });
+            }
+
+        function renderCharts(value) {
+            if (!value || !drilldown[value] || !drilldown[value].length) {
+                renderEmptyBar('kioskDrilldownCounts', 'Nationality Mix — No data available');
+                renderEmptyBar('kioskDrilldownRates', 'Termination Rate by Nationality — No data available');
+                return;
+            }
+
+            const rows = drilldown[value] || [];
+            const topRows = rows.slice(0, 15);
+
+            Plotly.newPlot('kioskDrilldownCounts', [
+                {
+                    type: 'bar',
+                    x: topRows.map(d => d.nationality),
+                    y: topRows.map(d => d.contracts_count),
+                    marker: { color: '#195c70' },
+                    hovertemplate: '<b>%{x}</b><br>Contracts: %{y:,}<extra></extra>',
+                }
+            ], {
+                title: `Nationality Mix — ${value}`,
+                margin: { t: 60, r: 20, b: 160, l: 60 },
+                xaxis: { automargin: true },
+                showlegend: false,
+            }, { responsive: true });
+
+            Plotly.newPlot('kioskDrilldownRates', [
+                {
+                    type: 'bar',
+                    x: topRows.map(d => d.nationality),
+                    y: topRows.map(d => d.termination_rate),
+                    marker: { color: topRows.map(d => colorForRate(d.termination_rate || 0)) },
+                    customdata: topRows.map(d => [
+                        d.avg_duration_days !== null && d.avg_duration_days !== undefined ? formatNumber(d.avg_duration_days) : '—',
+                        d.median_duration_days !== null && d.median_duration_days !== undefined ? formatNumber(d.median_duration_days) : '—',
+                    ]),
+                    hovertemplate: '<b>%{x}</b><br>Termination: %{y:.1%}<br>Avg duration: %{customdata[0]} days<br>Median duration: %{customdata[1]} days<extra></extra>',
+                }
+            ], {
+                title: `Termination Rate by Nationality — ${value}`,
+                margin: { t: 60, r: 20, b: 160, l: 60 },
+                xaxis: { automargin: true },
+                yaxis: { tickformat: '.0%' },
+                showlegend: false,
+            }, { responsive: true });
+        }
+
+            if (!options.length) {
+                input.value = '';
+                input.disabled = true;
+                input.placeholder = 'No kiosks available';
+                listElement.classList.remove('open');
+                listElement.innerHTML = '';
+                renderEmptyBar('kioskDrilldownCounts', 'Nationality Mix — No data available');
+                renderEmptyBar('kioskDrilldownRates', 'Termination Rate by Nationality — No data available');
+                renderTimeseries(null);
+                return;
+            }
+
+            input.disabled = false;
+            input.placeholder = 'Search or pick kiosk...';
+
+            const dropdown = createSearchDropdown({
+                input,
+                listElement,
+                options,
+                onSelect: value => {
+                    currentSelection = value;
+                    renderCharts(value);
+                    renderTimeseries(value);
+                },
+            });
+
+            input._dropdownDestroy = dropdown.destroy;
+
+            const initialNormalized = (input.value || '').trim().toLowerCase();
+            currentSelection = options.find(opt => opt.toLowerCase() === initialNormalized) || options[0];
+
+            dropdown.setValue(currentSelection, { silent: true });
+            renderCharts(currentSelection);
+            renderTimeseries(currentSelection);
+        }
+
+        function renderRiskTable() {
+            setupTable({
+                tableId: 'riskTable',
+                data: currentDataset.riskSegments || [],
+                columns: [
+                    { key: 'kiosk', label: 'Kiosk' },
+                    { key: 'nationality', label: 'Nationality' },
+                    { key: 'contracts_count', label: 'Contracts', format: v => formatNumber(v) },
+                    { key: 'terminated_count', label: 'Terminated', format: v => formatNumber(v) },
+                    {
+                        key: 'avg_duration_days',
+                        label: 'Avg Duration (days)',
+                        format: v => v === null || v === undefined ? '—' : formatNumber(v)
+                    },
+                    {
+                        key: 'median_duration_days',
+                        label: 'Median Duration (days)',
+                        format: v => v === null || v === undefined ? '—' : formatNumber(v)
+                    },
+                    {
+                        key: 'termination_rate',
+                        label: 'Termination Rate',
+                        format: v => formatPercent(v, 1)
+                    },
+                ],
+            });
+        }
+
+        

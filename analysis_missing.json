@@ -1,0 +1,98 @@
+{
+  "missing_summary": {
+    "Client Nationality": {
+      "missing_count": 1313,
+      "missing_pct": 16.74
+    },
+    "City": {
+      "missing_count": 243,
+      "missing_pct": 3.1
+    },
+    "Paid Date": {
+      "missing_count": 333,
+      "missing_pct": 4.24
+    },
+    "Termination Date": {
+      "missing_count": 4074,
+      "missing_pct": 51.93
+    }
+  },
+  "missing_nationality_top_locations": {
+    "Main center Dubai": 291,
+    "Festival Plaza": 104,
+    "Mall of Emirates": 90,
+    "Festival City": 89,
+    "Yas Mall": 78,
+    "Mercato": 62,
+    "Circle Mall": 58,
+    "Bay Avenue": 58,
+    "Oasis Mall": 57,
+    "Mudon": 57,
+    "Meadows souk shop": 56,
+    "Reem Mall": 54,
+    "Marina Mall": 41,
+    "City Centre Me'aisem": 39,
+    "Golden Miles": 36
+  },
+  "missing_nationality_top_cities": {
+    "Dubai": 962,
+    "Abu Dhabi": 157,
+    "Unknown": 156,
+    "Sharjah": 36,
+    "Ajman": 1,
+    "Ras al-Khaimah": 1
+  },
+  "nat_missing_termination_rate": 0.6824,
+  "nat_present_termination_rate": 0.4401,
+  "missing_city_top_locations": {
+    "Main center Dubai": 52,
+    "Festival City": 23,
+    "Festival Plaza": 20,
+    "Bay Avenue": 19,
+    "Mall of Emirates": 16,
+    "Reem Mall": 14,
+    "Marina Mall": 12,
+    "Mercato": 12,
+    "Circle Mall": 11,
+    "Yas Mall": 10,
+    "Meadows souk shop": 9,
+    "Mudon": 8,
+    "Golden Miles": 8,
+    "City Centre Me'aisem": 6,
+    "Oasis Mall": 6
+  },
+  "missing_paid_top_locations": {
+    "Festival City": 31,
+    "Bay Avenue": 29,
+    "Circle Mall": 27,
+    "Festival Plaza": 25,
+    "Yas Mall": 25,
+    "Mall of Emirates": 22,
+    "Mudon": 21,
+    "City Centre Me'aisem": 15,
+    "Oasis Mall": 15,
+    "Meadows souk shop": 15,
+    "Reem Mall": 15,
+    "Mercato": 13,
+    "Marina Mall": 12,
+    "First Avenue": 11,
+    "Mirdif City Center": 10
+  },
+  "termination_missing_top_locations": {
+    "Main center Dubai": 1066,
+    "Festival Plaza": 345,
+    "Festival City": 303,
+    "Yas Mall": 250,
+    "Mall of Emirates": 240,
+    "Reem Mall": 224,
+    "Marina Mall": 154,
+    "Mudon": 146,
+    "Oasis Mall": 139,
+    "Bay Avenue": 136,
+    "Mercato": 130,
+    "City Centre Me'aisem": 123,
+    "Circle Mall": 123,
+    "Meadows souk shop": 122,
+    "First Avenue": 118
+  }
+}

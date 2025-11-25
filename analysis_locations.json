@@ -1,0 +1,904 @@
+{
+  "Main center Dubai": {
+    "total_contracts": 2035,
+    "share_pct": 25.94,
+    "status_counts": {
+      "Active": 1066,
+      "Terminated": 969
+    },
+    "termination_rate": 0.4762,
+    "duration_stats": {
+      "mean_days": 175.7435707989336,
+      "median_days": 85.27496527777778
+    },
+    "payment_stats": {
+      "median_time_to_payment_days": 0.0,
+      "p75_time_to_payment_days": 0.01574363425925926
+    },
+    "top_nationalities": {
+      "nan": {
+        "count": 291,
+        "share_pct": 14.3
+      },
+      "Indian": {
+        "count": 232,
+        "share_pct": 11.4
+      },
+      "British": {
+        "count": 155,
+        "share_pct": 7.62
+      },
+      "Lebanese": {
+        "count": 131,
+        "share_pct": 6.44
+      },
+      "Egyptian": {
+        "count": 115,
+        "share_pct": 5.65
+      },
+      "Jordanian": {
+        "count": 101,
+        "share_pct": 4.96
+      },
+      "Filipina": {
+        "count": 92,
+        "share_pct": 4.52
+      },
+      "French": {
+        "count": 78,
+        "share_pct": 3.83
+      },
+      "Canadian": {
+        "count": 69,
+        "share_pct": 3.39
+      },
+      "Turkish": {
+        "count": 50,
+        "share_pct": 2.46
+      }
+    },
+    "monthly_last6": {
+      "2025-06": 52,
+      "2025-07": 41,
+      "2025-08": 54,
+      "2025-09": 61,
+      "2025-10": 67,
+      "2025-11": 30
+    },
+    "monthly_prev6": {
+      "2024-12": 90,
+      "2025-01": 104,
+      "2025-02": 64,
+      "2025-03": 60,
+      "2025-04": 84,
+      "2025-05": 55
+    },
+    "growth_last6_vs_prev6": -0.333,
+    "peak_day": "Monday",
+    "peak_hour": 12
+  },
+  "Festival Plaza": {
+    "total_contracts": 678,
+    "share_pct": 8.64,
+    "status_counts": {
+      "Active": 345,
+      "Terminated": 333
+    },
+    "termination_rate": 0.4912,
+    "duration_stats": {
+      "mean_days": 203.7827952952953,
+      "median_days": 118.1465162037037
+    },
+    "payment_stats": {
+      "median_time_to_payment_days": 0.08195601851851853,
+      "p75_time_to_payment_days": 0.6406828703703704
+    },
+    "top_nationalities": {
+      "Indian": {
+        "count": 138,
+        "share_pct": 20.35
+      },
+      "nan": {
+        "count": 104,
+        "share_pct": 15.34
+      },
+      "Filipina": {
+        "count": 75,
+        "share_pct": 11.06
+      },
+      "British": {
+        "count": 60,
+        "share_pct": 8.85
+      },
+      "Lebanese": {
+        "count": 29,
+        "share_pct": 4.28
+      },
+      "Pakistani": {
+        "count": 18,
+        "share_pct": 2.65
+      },
+      "Jordanian": {
+        "count": 18,
+        "share_pct": 2.65
+      },
+      "Egyptian": {
+        "count": 17,
+        "share_pct": 2.51
+      },
+      "Turkish": {
+        "count": 14,
+        "share_pct": 2.06
+      },
+      "Dutch": {
+        "count": 13,
+        "share_pct": 1.92
+      }
+    },
+    "monthly_last6": {
+      "2025-06": 19,
+      "2025-07": 17,
+      "2025-08": 18,
+      "2025-09": 25,
+      "2025-10": 23,
+      "2025-11": 14
+    },
+    "monthly_prev6": {
+      "2024-12": 34,
+      "2025-01": 33,
+      "2025-02": 19,
+      "2025-03": 22,
+      "2025-04": 30,
+      "2025-05": 24
+    },
+    "growth_last6_vs_prev6": -0.284,
+    "peak_day": "Monday",
+    "peak_hour": 11
+  },
+  "Festival City": {
+    "total_contracts": 567,
+    "share_pct": 7.23,
+    "status_counts": {
+      "Active": 303,
+      "Terminated": 264
+    },
+    "termination_rate": 0.4656,
+    "duration_stats": {
+      "mean_days": 146.4268071776796,
+      "median_days": 68.29861689814814
+    },
+    "payment_stats": {
+      "median_time_to_payment_days": 0.05212384259259259,
+      "p75_time_to_payment_days": 0.4991782407407408
+    },
+    "top_nationalities": {
+      "Filipina": {
+        "count": 129,
+        "share_pct": 22.75
+      },
+      "nan": {
+        "count": 89,
+        "share_pct": 15.7
+      },
+      "Indian": {
+        "count": 62,
+        "share_pct": 10.93
+      },
+      "British": {
+        "count": 38,
+        "share_pct": 6.7
+      },
+      "French": {
+        "count": 21,
+        "share_pct": 3.7
+      },
+      "Lebanese": {
+        "count": 19,
+        "share_pct": 3.35
+      },
+      "German": {
+        "count": 14,
+        "share_pct": 2.47
+      },
+      "Egyptian": {
+        "count": 13,
+        "share_pct": 2.29
+      },
+      "Canadian": {
+        "count": 12,
+        "share_pct": 2.12
+      },
+      "American": {
+        "count": 11,
+        "share_pct": 1.94
+      }
+    },
+    "monthly_last6": {
+      "2025-06": 21,
+      "2025-07": 24,
+      "2025-08": 20,
+      "2025-09": 30,
+      "2025-10": 14,
+      "2025-11": 11
+    },
+    "monthly_prev6": {
+      "2024-12": 20,
+      "2025-01": 41,
+      "2025-02": 32,
+      "2025-03": 25,
+      "2025-04": 22,
+      "2025-05": 30
+    },
+    "growth_last6_vs_prev6": -0.294,
+    "peak_day": "Tuesday",
+    "peak_hour": 13
+  },
+  "Yas Mall": {
+    "total_contracts": 464,
+    "share_pct": 5.91,
+    "status_counts": {
+      "Active": 250,
+      "Terminated": 214
+    },
+    "termination_rate": 0.4612,
+    "duration_stats": {
+      "mean_days": 129.96016814858083,
+      "median_days": 58.833755787037035
+    },
+    "payment_stats": {
+      "median_time_to_payment_days": 0.07616898148148148,
+      "p75_time_to_payment_days": 0.5393344907407407
+    },
+    "top_nationalities": {
+      "nan": {
+        "count": 78,
+        "share_pct": 16.81
+      },
+      "British": {
+        "count": 72,
+        "share_pct": 15.52
+      },
+      "Filipina": {
+        "count": 35,
+        "share_pct": 7.54
+      },
+      "Emirati": {
+        "count": 22,
+        "share_pct": 4.74
+      },
+      "Indian": {
+        "count": 21,
+        "share_pct": 4.53
+      },
+      "French": {
+        "count": 21,
+        "share_pct": 4.53
+      },
+      "Canadian": {
+        "count": 20,
+        "share_pct": 4.31
+      },
+      "Australian": {
+        "count": 16,
+        "share_pct": 3.45
+      },
+      "Jordanian": {
+        "count": 16,
+        "share_pct": 3.45
+      },
+      "Egyptian": {
+        "count": 11,
+        "share_pct": 2.37
+      }
+    },
+    "monthly_last6": {
+      "2025-06": 20,
+      "2025-07": 15,
+      "2025-08": 16,
+      "2025-09": 18,
+      "2025-10": 24,
+      "2025-11": 9
+    },
+    "monthly_prev6": {
+      "2024-12": 26,
+      "2025-01": 16,
+      "2025-02": 6,
+      "2025-03": 18,
+      "2025-04": 24,
+      "2025-05": 11
+    },
+    "growth_last6_vs_prev6": 0.01,
+    "peak_day": "Monday",
+    "peak_hour": 14
+  },
+  "Mall of Emirates": {
+    "total_contracts": 384,
+    "share_pct": 4.89,
+    "status_counts": {
+      "Active": 240,
+      "Terminated": 144
+    },
+    "termination_rate": 0.375,
+    "duration_stats": {
+      "mean_days": 62.34472825038579,
+      "median_days": 34.3160300925926
+    },
+    "payment_stats": {
+      "median_time_to_payment_days": 0.04833333333333333,
+      "p75_time_to_payment_days": 0.5124508101851852
+    },
+    "top_nationalities": {
+      "nan": {
+        "count": 90,
+        "share_pct": 23.44
+      },
+      "Indian": {
+        "count": 33,
+        "share_pct": 8.59
+      },
+      "Filipina": {
+        "count": 31,
+        "share_pct": 8.07
+      },
+      "British": {
+        "count": 31,
+        "share_pct": 8.07
+      },
+      "Lebanese": {
+        "count": 24,
+        "share_pct": 6.25
+      },
+      "French": {
+        "count": 18,
+        "share_pct": 4.69
+      },
+      "Egyptian": {
+        "count": 11,
+        "share_pct": 2.86
+      },
+      "Canadian": {
+        "count": 11,
+        "share_pct": 2.86
+      },
+      "Pakistani": {
+        "count": 11,
+        "share_pct": 2.86
+      },
+      "Chinese": {
+        "count": 9,
+        "share_pct": 2.34
+      }
+    },
+    "monthly_last6": {
+      "2025-06": 26,
+      "2025-07": 25,
+      "2025-08": 37,
+      "2025-09": 35,
+      "2025-10": 25,
+      "2025-11": 19
+    },
+    "monthly_prev6": {
+      "2024-12": 33,
+      "2025-01": 35,
+      "2025-02": 20,
+      "2025-03": 37,
+      "2025-04": 26,
+      "2025-05": 23
+    },
+    "growth_last6_vs_prev6": -0.04,
+    "peak_day": "Thursday",
+    "peak_hour": 13
+  },
+  "Reem Mall": {
+    "total_contracts": 350,
+    "share_pct": 4.46,
+    "status_counts": {
+      "Active": 224,
+      "Terminated": 126
+    },
+    "termination_rate": 0.36,
+    "duration_stats": {
+      "mean_days": 63.836735192533794,
+      "median_days": 33.27863425925926
+    },
+    "payment_stats": {
+      "median_time_to_payment_days": 0.058784722222222224,
+      "p75_time_to_payment_days": 0.46212962962962967
+    },
+    "top_nationalities": {
+      "Filipina": {
+        "count": 78,
+        "share_pct": 22.29
+      },
+      "nan": {
+        "count": 54,
+        "share_pct": 15.43
+      },
+      "Indian": {
+        "count": 29,
+        "share_pct": 8.29
+      },
+      "Lebanese": {
+        "count": 20,
+        "share_pct": 5.71
+      },
+      "Jordanian": {
+        "count": 17,
+        "share_pct": 4.86
+      },
+      "British": {
+        "count": 16,
+        "share_pct": 4.57
+      },
+      "American": {
+        "count": 14,
+        "share_pct": 4.0
+      },
+      "Emirati": {
+        "count": 12,
+        "share_pct": 3.43
+      },
+      "Australian": {
+        "count": 9,
+        "share_pct": 2.57
+      },
+      "Italian": {
+        "count": 9,
+        "share_pct": 2.57
+      }
+    },
+    "monthly_last6": {
+      "2025-06": 21,
+      "2025-07": 24,
+      "2025-08": 34,
+      "2025-09": 21,
+      "2025-10": 20,
+      "2025-11": 17
+    },
+    "monthly_prev6": {
+      "2024-12": 21,
+      "2025-01": 21,
+      "2025-02": 28,
+      "2025-03": 23,
+      "2025-04": 32,
+      "2025-05": 24
+    },
+    "growth_last6_vs_prev6": -0.081,
+    "peak_day": "Monday",
+    "peak_hour": 14
+  },
+  "Mudon": {
+    "total_contracts": 349,
+    "share_pct": 4.45,
+    "status_counts": {
+      "Terminated": 203,
+      "Active": 146
+    },
+    "termination_rate": 0.5817,
+    "duration_stats": {
+      "mean_days": 134.09981196405766,
+      "median_days": 61.14630787037037
+    },
+    "payment_stats": {
+      "median_time_to_payment_days": 0.07365740740740741,
+      "p75_time_to_payment_days": 0.6139554398148148
+    },
+    "top_nationalities": {
+      "nan": {
+        "count": 57,
+        "share_pct": 16.33
+      },
+      "British": {
+        "count": 46,
+        "share_pct": 13.18
+      },
+      "Lebanese": {
+        "count": 24,
+        "share_pct": 6.88
+      },
+      "Egyptian": {
+        "count": 23,
+        "share_pct": 6.59
+      },
+      "Indian": {
+        "count": 21,
+        "share_pct": 6.02
+      },
+      "Jordanian": {
+        "count": 20,
+        "share_pct": 5.73
+      },
+      "Canadian": {
+        "count": 12,
+        "share_pct": 3.44
+      },
+      "French": {
+        "count": 12,
+        "share_pct": 3.44
+      },
+      "Australian": {
+        "count": 10,
+        "share_pct": 2.87
+      },
+      "Turkish": {
+        "count": 9,
+        "share_pct": 2.58
+      }
+    },
+    "monthly_last6": {
+      "2025-06": 13,
+      "2025-07": 9,
+      "2025-08": 15,
+      "2025-09": 12,
+      "2025-10": 8,
+      "2025-11": 6
+    },
+    "monthly_prev6": {
+      "2024-12": 25,
+      "2025-01": 13,
+      "2025-02": 11,
+      "2025-03": 17,
+      "2025-04": 13,
+      "2025-05": 11
+    },
+    "growth_last6_vs_prev6": -0.3,
+    "peak_day": "Friday",
+    "peak_hour": 12
+  },
+  "Circle Mall": {
+    "total_contracts": 340,
+    "share_pct": 4.33,
+    "status_counts": {
+      "Terminated": 217,
+      "Active": 123
+    },
+    "termination_rate": 0.6382,
+    "duration_stats": {
+      "mean_days": 155.97951154207203,
+      "median_days": 75.99653935185185
+    },
+    "payment_stats": {
+      "median_time_to_payment_days": 0.07450231481481481,
+      "p75_time_to_payment_days": 0.43679398148148146
+    },
+    "top_nationalities": {
+      "nan": {
+        "count": 58,
+        "share_pct": 17.06
+      },
+      "British": {
+        "count": 42,
+        "share_pct": 12.35
+      },
+      "Lebanese": {
+        "count": 40,
+        "share_pct": 11.76
+      },
+      "Indian": {
+        "count": 23,
+        "share_pct": 6.76
+      },
+      "Egyptian": {
+        "count": 17,
+        "share_pct": 5.0
+      },
+      "Jordanian": {
+        "count": 15,
+        "share_pct": 4.41
+      },
+      "French": {
+        "count": 12,
+        "share_pct": 3.53
+      },
+      "Pakistani": {
+        "count": 9,
+        "share_pct": 2.65
+      },
+      "Filipina": {
+        "count": 8,
+        "share_pct": 2.35
+      },
+      "Syrian": {
+        "count": 8,
+        "share_pct": 2.35
+      }
+    },
+    "monthly_last6": {
+      "2025-06": 6,
+      "2025-07": 9,
+      "2025-08": 19,
+      "2025-09": 7,
+      "2025-10": 11,
+      "2025-11": 4
+    },
+    "monthly_prev6": {
+      "2024-12": 11,
+      "2025-01": 14,
+      "2025-02": 11,
+      "2025-03": 11,
+      "2025-04": 17,
+      "2025-05": 12
+    },
+    "growth_last6_vs_prev6": -0.263,
+    "peak_day": "Sunday",
+    "peak_hour": 13
+  },
+  "Meadows souk shop": {
+    "total_contracts": 320,
+    "share_pct": 4.08,
+    "status_counts": {
+      "Terminated": 198,
+      "Active": 122
+    },
+    "termination_rate": 0.6188,
+    "duration_stats": {
+      "mean_days": 224.14760592031425,
+      "median_days": 130.9410763888889
+    },
+    "payment_stats": {
+      "median_time_to_payment_days": 0.09511574074074074,
+      "p75_time_to_payment_days": 0.5227199074074074
+    },
+    "top_nationalities": {
+      "nan": {
+        "count": 56,
+        "share_pct": 17.5
+      },
+      "British": {
+        "count": 39,
+        "share_pct": 12.19
+      },
+      "Indian": {
+        "count": 30,
+        "share_pct": 9.38
+      },
+      "Lebanese": {
+        "count": 22,
+        "share_pct": 6.88
+      },
+      "Italian": {
+        "count": 13,
+        "share_pct": 4.06
+      },
+      "Canadian": {
+        "count": 12,
+        "share_pct": 3.75
+      },
+      "Turkish": {
+        "count": 11,
+        "share_pct": 3.44
+      },
+      "French": {
+        "count": 10,
+        "share_pct": 3.12
+      },
+      "German": {
+        "count": 9,
+        "share_pct": 2.81
+      },
+      "American": {
+        "count": 8,
+        "share_pct": 2.5
+      }
+    },
+    "monthly_last6": {
+      "2025-06": 0,
+      "2025-07": 0,
+      "2025-08": 0,
+      "2025-09": 0,
+      "2025-10": 0,
+      "2025-11": 0
+    },
+    "monthly_prev6": {
+      "2024-12": 21,
+      "2025-01": 6,
+      "2025-02": 2,
+      "2025-03": 4,
+      "2025-04": 1,
+      "2025-05": 0
+    },
+    "growth_last6_vs_prev6": -1.0,
+    "peak_day": "Thursday",
+    "peak_hour": 10
+  },
+  "Mercato": {
+    "total_contracts": 307,
+    "share_pct": 3.91,
+    "status_counts": {
+      "Terminated": 177,
+      "Active": 130
+    },
+    "termination_rate": 0.5765,
+    "duration_stats": {
+      "mean_days": 135.08754021500314,
+      "median_days": 45.24559027777778
+    },
+    "payment_stats": {
+      "median_time_to_payment_days": 0.07340277777777778,
+      "p75_time_to_payment_days": 0.5902748842592592
+    },
+    "top_nationalities": {
+      "nan": {
+        "count": 62,
+        "share_pct": 20.2
+      },
+      "Indian": {
+        "count": 32,
+        "share_pct": 10.42
+      },
+      "French": {
+        "count": 24,
+        "share_pct": 7.82
+      },
+      "British": {
+        "count": 23,
+        "share_pct": 7.49
+      },
+      "Filipina": {
+        "count": 16,
+        "share_pct": 5.21
+      },
+      "Lebanese": {
+        "count": 14,
+        "share_pct": 4.56
+      },
+      "Canadian": {
+        "count": 12,
+        "share_pct": 3.91
+      },
+      "Iranian": {
+        "count": 12,
+        "share_pct": 3.91
+      },
+      "German": {
+        "count": 8,
+        "share_pct": 2.61
+      },
+      "Egyptian": {
+        "count": 7,
+        "share_pct": 2.28
+      }
+    },
+    "monthly_last6": {
+      "2025-06": 12,
+      "2025-07": 3,
+      "2025-08": 10,
+      "2025-09": 7,
+      "2025-10": 10,
+      "2025-11": 10
+    },
+    "monthly_prev6": {
+      "2024-12": 11,
+      "2025-01": 6,
+      "2025-02": 13,
+      "2025-03": 13,
+      "2025-04": 10,
+      "2025-05": 8
+    },
+    "growth_last6_vs_prev6": -0.148,
+    "peak_day": "Tuesday",
+    "peak_hour": 10
+  },
+  "benchmark_metrics": {
+    "Bay Avenue": {
+      "total_contracts": 276,
+      "termination_rate": 0.507,
+      "median_duration_days": 51.633,
+      "median_time_to_payment_days": 0.11
+    },
+    "Brands For Less": {
+      "total_contracts": 24,
+      "termination_rate": 0.5,
+      "median_duration_days": 42.549,
+      "median_time_to_payment_days": 0.095
+    },
+    "Circle Mall": {
+      "total_contracts": 340,
+      "termination_rate": 0.638,
+      "median_duration_days": 75.997,
+      "median_time_to_payment_days": 0.075
+    },
+    "City Centre Me'aisem": {
+      "total_contracts": 246,
+      "termination_rate": 0.5,
+      "median_duration_days": 44.167,
+      "median_time_to_payment_days": 0.06
+    },
+    "Dubai Hills": {
+      "total_contracts": 11,
+      "termination_rate": 0.0,
+      "median_duration_days": 0.0,
+      "median_time_to_payment_days": 0.026
+    },
+    "Festival City": {
+      "total_contracts": 567,
+      "termination_rate": 0.466,
+      "median_duration_days": 68.299,
+      "median_time_to_payment_days": 0.052
+    },
+    "Festival Plaza": {
+      "total_contracts": 678,
+      "termination_rate": 0.491,
+      "median_duration_days": 118.147,
+      "median_time_to_payment_days": 0.082
+    },
+    "First Avenue": {
+      "total_contracts": 228,
+      "termination_rate": 0.482,
+      "median_duration_days": 88.234,
+      "median_time_to_payment_days": 0.082
+    },
+    "Golden Miles": {
+      "total_contracts": 149,
+      "termination_rate": 0.409,
+      "median_duration_days": 42.561,
+      "median_time_to_payment_days": 0.052
+    },
+    "Main center Dubai": {
+      "total_contracts": 2035,
+      "termination_rate": 0.476,
+      "median_duration_days": 85.275,
+      "median_time_to_payment_days": 0.0
+    },
+    "Mall of Emirates": {
+      "total_contracts": 384,
+      "termination_rate": 0.375,
+      "median_duration_days": 34.316,
+      "median_time_to_payment_days": 0.048
+    },
+    "Marina Mall": {
+      "total_contracts": 265,
+      "termination_rate": 0.419,
+      "median_duration_days": 67.201,
+      "median_time_to_payment_days": 0.058
+    },
+    "Meadows souk shop": {
+      "total_contracts": 320,
+      "termination_rate": 0.619,
+      "median_duration_days": 130.941,
+      "median_time_to_payment_days": 0.095
+    },
+    "Mercato": {
+      "total_contracts": 307,
+      "termination_rate": 0.577,
+      "median_duration_days": 45.246,
+      "median_time_to_payment_days": 0.073
+    },
+    "Mirdif City Center": {
+      "total_contracts": 137,
+      "termination_rate": 0.35,
+      "median_duration_days": 24.355,
+      "median_time_to_payment_days": 0.032
+    },
+    "Mudon": {
+      "total_contracts": 349,
+      "termination_rate": 0.582,
+      "median_duration_days": 61.146,
+      "median_time_to_payment_days": 0.074
+    },
+    "Nakheel Mall": {
+      "total_contracts": 102,
+      "termination_rate": 0.284,
+      "median_duration_days": 30.202,
+      "median_time_to_payment_days": 0.03
+    },
+    "Oasis Mall": {
+      "total_contracts": 254,
+      "termination_rate": 0.453,
+      "median_duration_days": 61.862,
+      "median_time_to_payment_days": 0.06
+    },
+    "Off-Site Sales": {
+      "total_contracts": 29,
+      "termination_rate": 0.552,
+      "median_duration_days": 17.256,
+      "median_time_to_payment_days": 0.066
+    },
+    "Pavilion": {
+      "total_contracts": 107,
+      "termination_rate": 0.421,
+      "median_duration_days": 34.352,
+      "median_time_to_payment_days": 0.047
+    }
+  }
+}

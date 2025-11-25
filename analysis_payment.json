@@ -1,0 +1,579 @@
+{
+  "paid_ratio": 0.9576,
+  "missing_paid_count": 333,
+  "time_to_payment_stats": {
+    "mean_days": 0.4517406547671873,
+    "median_days": 0.034861111111111114,
+    "std_days": 4.126128260142602,
+    "p90_days": 1.2179456018518526,
+    "p99_days": 10.046829050925988,
+    "min_days": -89.94300925925926,
+    "max_days": 103.82332175925926
+  },
+  "negative_payment_count": 117,
+  "negative_payment_examples": [
+    {
+      "Contract ID": 1016703,
+      "Interview Location": "First Avenue",
+      "Contract Creation Date": "2023-02-07 09:08:36",
+      "Paid Date": "2022-11-09 10:30:40",
+      "time_to_payment_days": -89.94300925925926
+    },
+    {
+      "Contract ID": 1062858,
+      "Interview Location": "Festival Plaza",
+      "Contract Creation Date": "2025-05-29 12:12:03",
+      "Paid Date": "2025-03-03 17:22:30",
+      "time_to_payment_days": -86.78440972222222
+    },
+    {
+      "Contract ID": 1062426,
+      "Interview Location": "Marina Mall",
+      "Contract Creation Date": "2025-05-24 12:33:46",
+      "Paid Date": "2025-02-26 21:13:21",
+      "time_to_payment_days": -86.63917824074075
+    },
+    {
+      "Contract ID": 1030510,
+      "Interview Location": "Yas Mall",
+      "Contract Creation Date": "2024-03-22 12:55:32",
+      "Paid Date": "2024-01-06 19:20:28",
+      "time_to_payment_days": -75.73268518518519
+    },
+    {
+      "Contract ID": 1048564,
+      "Interview Location": "Mercato",
+      "Contract Creation Date": "2024-09-15 00:19:24",
+      "Paid Date": "2024-07-08 11:30:17",
+      "time_to_payment_days": -68.5341087962963
+    }
+  ],
+  "location_payment_stats": {
+    "Bay Avenue": {
+      "median": 0.11,
+      "mean": 0.584,
+      "count": 247
+    },
+    "Brands For Less": {
+      "median": 0.095,
+      "mean": 1.306,
+      "count": 23
+    },
+    "Circle Mall": {
+      "median": 0.075,
+      "mean": 0.507,
+      "count": 313
+    },
+    "City Centre Me'aisem": {
+      "median": 0.06,
+      "mean": 0.996,
+      "count": 231
+    },
+    "Dubai Hills": {
+      "median": 0.026,
+      "mean": 0.07,
+      "count": 11
+    },
+    "Festival City": {
+      "median": 0.052,
+      "mean": 0.054,
+      "count": 536
+    },
+    "Festival Plaza": {
+      "median": 0.082,
+      "mean": 0.215,
+      "count": 653
+    },
+    "First Avenue": {
+      "median": 0.082,
+      "mean": -0.332,
+      "count": 217
+    },
+    "Golden Miles": {
+      "median": 0.052,
+      "mean": 0.14,
+      "count": 144
+    },
+    "Main center Dubai": {
+      "median": 0.0,
+      "mean": 0.518,
+      "count": 2026
+    },
+    "Mall of Emirates": {
+      "median": 0.048,
+      "mean": 0.727,
+      "count": 362
+    },
+    "Marina Mall": {
+      "median": 0.058,
+      "mean": 0.542,
+      "count": 253
+    },
+    "Meadows souk shop": {
+      "median": 0.095,
+      "mean": 0.193,
+      "count": 305
+    },
+    "Mercato": {
+      "median": 0.073,
+      "mean": 0.603,
+      "count": 294
+    },
+    "Mirdif City Center": {
+      "median": 0.032,
+      "mean": 0.666,
+      "count": 127
+    },
+    "Mudon": {
+      "median": 0.074,
+      "mean": 0.994,
+      "count": 328
+    },
+    "Nakheel Mall": {
+      "median": 0.03,
+      "mean": 0.342,
+      "count": 101
+    },
+    "Oasis Mall": {
+      "median": 0.06,
+      "mean": 0.633,
+      "count": 239
+    },
+    "Off-Site Sales": {
+      "median": 0.066,
+      "mean": 0.643,
+      "count": 26
+    },
+    "Pavilion": {
+      "median": 0.047,
+      "mean": 0.629,
+      "count": 100
+    },
+    "Reem Mall": {
+      "median": 0.059,
+      "mean": 0.525,
+      "count": 335
+    },
+    "Sahara Center": {
+      "median": 0.038,
+      "mean": -1.081,
+      "count": 25
+    },
+    "Shams Boutik": {
+      "median": 0.024,
+      "mean": 0.105,
+      "count": 24
+    },
+    "Sharjah City Center": {
+      "median": 0.029,
+      "mean": 0.238,
+      "count": 20
+    },
+    "The Market": {
+      "median": 0.099,
+      "mean": 0.564,
+      "count": 50
+    },
+    "Time Square Center": {
+      "median": 0.04,
+      "mean": 0.196,
+      "count": 17
+    },
+    "World Trade Center 3": {
+      "median": 0.017,
+      "mean": 0.07,
+      "count": 10
+    },
+    "Yalayis": {
+      "median": 0.339,
+      "mean": -0.669,
+      "count": 8
+    },
+    "Yas Mall": {
+      "median": 0.076,
+      "mean": 0.424,
+      "count": 439
+    },
+    "Yas Mall 2": {
+      "median": 0.107,
+      "mean": 0.596,
+      "count": 8
+    },
+    "Zahraa": {
+      "median": 0.038,
+      "mean": -0.576,
+      "count": 40
+    }
+  },
+  "nationality_payment_stats": {
+    "British": {
+      "median": 0.044,
+      "mean": 0.399,
+      "count": 707
+    },
+    "Canadian": {
+      "median": 0.04,
+      "mean": 0.317,
+      "count": 219
+    },
+    "Egyptian": {
+      "median": 0.025,
+      "mean": 0.188,
+      "count": 297
+    },
+    "Filipina": {
+      "median": 0.047,
+      "mean": 0.639,
+      "count": 624
+    },
+    "French": {
+      "median": 0.042,
+      "mean": 0.416,
+      "count": 265
+    },
+    "Indian": {
+      "median": 0.056,
+      "mean": 0.32,
+      "count": 934
+    },
+    "Jordanian": {
+      "median": 0.029,
+      "mean": 0.482,
+      "count": 258
+    },
+    "Lebanese": {
+      "median": 0.039,
+      "mean": 0.528,
+      "count": 425
+    },
+    "Pakistani": {
+      "median": 0.055,
+      "mean": 0.15,
+      "count": 174
+    }
+  },
+  "slowest_payments": [
+    {
+      "Contract ID": 1059032,
+      "Interview Location": "Main center Dubai",
+      "Client Nationality": "Lebanese",
+      "time_to_payment_days": 103.82332175925926,
+      "Contract Creation Date": "2025-01-05 17:44:06",
+      "Paid Date": "2025-04-19 13:29:41"
+    },
+    {
+      "Contract ID": 1052714,
+      "Interview Location": "Marina Mall",
+      "Client Nationality": "Filipina",
+      "time_to_payment_days": 87.86775462962963,
+      "Contract Creation Date": "2024-09-29 14:29:21",
+      "Paid Date": "2024-12-26 11:18:55"
+    },
+    {
+      "Contract ID": 1058735,
+      "Interview Location": "Main center Dubai",
+      "Client Nationality": "Grenadian",
+      "time_to_payment_days": 55.41608796296296,
+      "Contract Creation Date": "2025-01-02 08:46:50",
+      "Paid Date": "2025-02-26 18:46:00"
+    },
+    {
+      "Contract ID": 1063583,
+      "Interview Location": "Main center Dubai",
+      "Client Nationality": NaN,
+      "time_to_payment_days": 52.7084375,
+      "Contract Creation Date": "2025-03-14 16:22:48",
+      "Paid Date": "2025-05-06 09:22:57"
+    },
+    {
+      "Contract ID": 1068453,
+      "Interview Location": "Mall of Emirates",
+      "Client Nationality": "Filipina",
+      "time_to_payment_days": 50.92962962962963,
+      "Contract Creation Date": "2025-05-28 13:08:51",
+      "Paid Date": "2025-07-18 11:27:31"
+    },
+    {
+      "Contract ID": 1059841,
+      "Interview Location": "Main center Dubai",
+      "Client Nationality": "Indian",
+      "time_to_payment_days": 50.86902777777778,
+      "Contract Creation Date": "2025-01-16 11:43:10",
+      "Paid Date": "2025-03-08 08:34:34"
+    },
+    {
+      "Contract ID": 1071214,
+      "Interview Location": "City Centre Me'aisem",
+      "Client Nationality": "Kenyan",
+      "time_to_payment_days": 50.078668981481485,
+      "Contract Creation Date": "2025-07-15 19:22:00",
+      "Paid Date": "2025-09-03 21:15:17"
+    },
+    {
+      "Contract ID": 1049884,
+      "Interview Location": "Mudon",
+      "Client Nationality": "Iranian",
+      "time_to_payment_days": 35.95461805555556,
+      "Contract Creation Date": "2024-08-12 13:31:25",
+      "Paid Date": "2024-09-17 12:26:04"
+    },
+    {
+      "Contract ID": 1066124,
+      "Interview Location": "Main center Dubai",
+      "Client Nationality": NaN,
+      "time_to_payment_days": 33.122395833333336,
+      "Contract Creation Date": "2025-04-23 09:53:02",
+      "Paid Date": "2025-05-26 12:49:17"
+    },
+    {
+      "Contract ID": 1033024,
+      "Interview Location": "Mercato",
+      "Client Nationality": NaN,
+      "time_to_payment_days": 32.91092592592592,
+      "Contract Creation Date": "2024-02-11 13:14:21",
+      "Paid Date": "2024-03-15 11:06:05"
+    },
+    {
+      "Contract ID": 1062515,
+      "Interview Location": "Main center Dubai",
+      "Client Nationality": "Russian",
+      "time_to_payment_days": 30.063622685185184,
+      "Contract Creation Date": "2025-02-28 08:00:40",
+      "Paid Date": "2025-03-30 09:32:17"
+    },
+    {
+      "Contract ID": 1062515,
+      "Interview Location": "Main center Dubai",
+      "Client Nationality": "Russian",
+      "time_to_payment_days": 28.98172453703704,
+      "Contract Creation Date": "2025-02-28 08:00:40",
+      "Paid Date": "2025-03-29 07:34:21"
+    },
+    {
+      "Contract ID": 1052460,
+      "Interview Location": "Mercato",
+      "Client Nationality": "Iranian",
+      "time_to_payment_days": 28.07329861111111,
+      "Contract Creation Date": "2024-09-24 20:14:35",
+      "Paid Date": "2024-10-22 22:00:08"
+    },
+    {
+      "Contract ID": 1022747,
+      "Interview Location": "Yas Mall",
+      "Client Nationality": "Emirati",
+      "time_to_payment_days": 27.09195601851852,
+      "Contract Creation Date": "2023-05-23 19:07:15",
+      "Paid Date": "2023-06-19 21:19:40"
+    },
+    {
+      "Contract ID": 1052452,
+      "Interview Location": "Circle Mall",
+      "Client Nationality": NaN,
+      "time_to_payment_days": 24.6675,
+      "Contract Creation Date": "2024-09-24 18:15:27",
+      "Paid Date": "2024-10-19 10:16:39"
+    },
+    {
+      "Contract ID": 1051439,
+      "Interview Location": "Festival Plaza",
+      "Client Nationality": "Lebanese",
+      "time_to_payment_days": 24.245844907407406,
+      "Contract Creation Date": "2024-09-08 08:07:51",
+      "Paid Date": "2024-10-02 14:01:52"
+    },
+    {
+      "Contract ID": 1065063,
+      "Interview Location": "Mudon",
+      "Client Nationality": "Bahraini",
+      "time_to_payment_days": 23.61841435185185,
+      "Contract Creation Date": "2025-04-06 18:24:23",
+      "Paid Date": "2025-04-30 09:14:54"
+    },
+    {
+      "Contract ID": 1073037,
+      "Interview Location": "Marina Mall",
+      "Client Nationality": NaN,
+      "time_to_payment_days": 22.770868055555557,
+      "Contract Creation Date": "2025-08-17 12:49:00",
+      "Paid Date": "2025-09-09 07:19:03"
+    },
+    {
+      "Contract ID": 1060409,
+      "Interview Location": "Main center Dubai",
+      "Client Nationality": "Spanish",
+      "time_to_payment_days": 22.44087962962963,
+      "Contract Creation Date": "2025-01-26 08:43:39",
+      "Paid Date": "2025-02-17 19:18:31"
+    },
+    {
+      "Contract ID": 1074861,
+      "Interview Location": "Main center Dubai",
+      "Client Nationality": "Russian",
+      "time_to_payment_days": 22.096030092592592,
+      "Contract Creation Date": "2025-09-16 10:06:00",
+      "Paid Date": "2025-10-08 12:24:17"
+    }
+  ],
+  "fastest_payments": [
+    {
+      "Contract ID": 1016703,
+      "Interview Location": "First Avenue",
+      "Client Nationality": "Sudanese",
+      "time_to_payment_days": -89.94300925925926,
+      "Contract Creation Date": "2023-02-07 09:08:36",
+      "Paid Date": "2022-11-09 10:30:40"
+    },
+    {
+      "Contract ID": 1062858,
+      "Interview Location": "Festival Plaza",
+      "Client Nationality": NaN,
+      "time_to_payment_days": -86.78440972222222,
+      "Contract Creation Date": "2025-05-29 12:12:03",
+      "Paid Date": "2025-03-03 17:22:30"
+    },
+    {
+      "Contract ID": 1062426,
+      "Interview Location": "Marina Mall",
+      "Client Nationality": NaN,
+      "time_to_payment_days": -86.63917824074075,
+      "Contract Creation Date": "2025-05-24 12:33:46",
+      "Paid Date": "2025-02-26 21:13:21"
+    },
+    {
+      "Contract ID": 1030510,
+      "Interview Location": "Yas Mall",
+      "Client Nationality": "German",
+      "time_to_payment_days": -75.73268518518519,
+      "Contract Creation Date": "2024-03-22 12:55:32",
+      "Paid Date": "2024-01-06 19:20:28"
+    },
+    {
+      "Contract ID": 1048564,
+      "Interview Location": "Mercato",
+      "Client Nationality": "British",
+      "time_to_payment_days": -68.5341087962963,
+      "Contract Creation Date": "2024-09-15 00:19:24",
+      "Paid Date": "2024-07-08 11:30:17"
+    },
+    {
+      "Contract ID": 1023808,
+      "Interview Location": "Festival City",
+      "Client Nationality": NaN,
+      "time_to_payment_days": -64.76091435185185,
+      "Contract Creation Date": "2023-09-12 10:28:46",
+      "Paid Date": "2023-07-09 16:13:03"
+    },
+    {
+      "Contract ID": 1030621,
+      "Interview Location": "Festival City",
+      "Client Nationality": "Egyptian",
+      "time_to_payment_days": -62.18266203703703,
+      "Contract Creation Date": "2024-03-14 13:33:40",
+      "Paid Date": "2024-01-12 09:10:38"
+    },
+    {
+      "Contract ID": 1033453,
+      "Interview Location": "Festival City",
+      "Client Nationality": "Kenyan",
+      "time_to_payment_days": -51.643483796296294,
+      "Contract Creation Date": "2024-04-15 12:05:17",
+      "Paid Date": "2024-02-23 20:38:40"
+    },
+    {
+      "Contract ID": 1065420,
+      "Interview Location": "Golden Miles",
+      "Client Nationality": NaN,
+      "time_to_payment_days": -45.986550925925926,
+      "Contract Creation Date": "2025-05-27 14:27:35",
+      "Paid Date": "2025-04-11 14:46:57"
+    },
+    {
+      "Contract ID": 1023571,
+      "Interview Location": "Meadows souk shop",
+      "Client Nationality": "Spanish",
+      "time_to_payment_days": -41.67635416666667,
+      "Contract Creation Date": "2023-08-03 13:10:34",
+      "Paid Date": "2023-06-22 20:56:37"
+    },
+    {
+      "Contract ID": 1063882,
+      "Interview Location": "Festival Plaza",
+      "Client Nationality": NaN,
+      "time_to_payment_days": -36.91412037037037,
+      "Contract Creation Date": "2025-04-26 08:56:09",
+      "Paid Date": "2025-03-20 10:59:49"
+    },
+    {
+      "Contract ID": 1019066,
+      "Interview Location": "First Avenue",
+      "Client Nationality": "New Zealander",
+      "time_to_payment_days": -36.683564814814815,
+      "Contract Creation Date": "2023-03-02 09:46:02",
+      "Paid Date": "2023-01-24 17:21:42"
+    },
+    {
+      "Contract ID": 1022686,
+      "Interview Location": "First Avenue",
+      "Client Nationality": "Australian",
+      "time_to_payment_days": -34.435011574074075,
+      "Contract Creation Date": "2023-06-25 21:53:58",
+      "Paid Date": "2023-05-22 11:27:33"
+    },
+    {
+      "Contract ID": 1026338,
+      "Interview Location": "Festival City",
+      "Client Nationality": "Pakistani",
+      "time_to_payment_days": -30.08533564814815,
+      "Contract Creation Date": "2023-10-30 12:18:31",
+      "Paid Date": "2023-09-30 10:15:38"
+    },
+    {
+      "Contract ID": 1024080,
+      "Interview Location": "Zahraa",
+      "Client Nationality": "Indian",
+      "time_to_payment_days": -29.91980324074074,
+      "Contract Creation Date": "2023-08-16 09:27:20",
+      "Paid Date": "2023-07-17 11:22:49"
+    },
+    {
+      "Contract ID": 1022954,
+      "Interview Location": "Meadows souk shop",
+      "Client Nationality": "Lebanese",
+      "time_to_payment_days": -29.66989583333333,
+      "Contract Creation Date": "2023-07-01 08:22:06",
+      "Paid Date": "2023-06-01 16:17:27"
+    },
+    {
+      "Contract ID": 1053851,
+      "Interview Location": "Festival Plaza",
+      "Client Nationality": "Belgian",
+      "time_to_payment_days": -28.95048611111111,
+      "Contract Creation Date": "2024-11-11 10:02:53",
+      "Paid Date": "2024-10-13 11:14:11"
+    },
+    {
+      "Contract ID": 1023969,
+      "Interview Location": "Mercato",
+      "Client Nationality": "Indian",
+      "time_to_payment_days": -27.854560185185186,
+      "Contract Creation Date": "2023-08-07 10:26:19",
+      "Paid Date": "2023-07-10 13:55:45"
+    },
+    {
+      "Contract ID": 1040169,
+      "Interview Location": "Bay Avenue",
+      "Client Nationality": "Indian",
+      "time_to_payment_days": -27.15734953703704,
+      "Contract Creation Date": "2024-05-06 15:49:35",
+      "Paid Date": "2024-04-09 12:03:00"
+    },
+    {
+      "Contract ID": 1025252,
+      "Interview Location": "Festival Plaza",
+      "Client Nationality": "Indian",
+      "time_to_payment_days": -25.017650462962962,
+      "Contract Creation Date": "2023-09-25 21:41:30",
+      "Paid Date": "2023-08-31 21:16:05"
+    }
+  ]
+}
